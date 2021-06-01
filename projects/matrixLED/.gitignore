@@ -1,0 +1,15 @@
+# git ignore file
+# designed by hamayan.
+
+# not need net bak kicad_pcb-bak zip xlsx csv
+*.net
+*.bak
+*.kicad_pcb-bak
+*.zip
+*.xlsx
+*.csv
+
+# not need gerber folder
+gerber/
+
+

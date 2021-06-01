@@ -1,0 +1,552 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:led_osl641505
+LIBS:ic_74hc574
+LIBS:c_np_small
+LIBS:cp1_small
+LIBS:led_LED3MM
+LIBS:r_register
+LIBS:cn_hif3fc-16pa-2
+LIBS:matrixLED-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "16 * 16 DOT MATRIX LED BOARD"
+Date ""
+Rev "0"
+Comp ""
+Comment1 "designed by hamayan."
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L led_OSL641505 LED1
+U 1 1 60A2B71F
+P 5400 1300
+F 0 "LED1" H 5600 1750 50  0000 C CNN
+F 1 "OSL641505-BB" H 5400 850 50  0000 C CNN
+F 2 "A01myFootPrint:led_OSL641505" H 5400 1200 60  0001 C CNN
+F 3 "" H 5400 1200 60  0001 C CNN
+	1    5400 1300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 950  4650 950 
+Text Label 4700 950  0    50   ~ 0
+ROW1
+Wire Wire Line
+	4950 1050 4650 1050
+Wire Wire Line
+	4950 1150 4650 1150
+Wire Wire Line
+	4950 1250 4650 1250
+Wire Wire Line
+	4950 1350 4650 1350
+Wire Wire Line
+	4950 1450 4650 1450
+Wire Wire Line
+	4950 1550 4650 1550
+Wire Wire Line
+	4950 1650 4650 1650
+Text Label 4700 1050 0    50   ~ 0
+ROW2
+Text Label 4700 1150 0    50   ~ 0
+ROW3
+Text Label 4700 1250 0    50   ~ 0
+ROW4
+Text Label 4700 1350 0    50   ~ 0
+ROW5
+Text Label 4700 1450 0    50   ~ 0
+ROW6
+Text Label 4700 1550 0    50   ~ 0
+ROW7
+Text Label 4700 1650 0    50   ~ 0
+ROW8
+Text Label 5900 950  0    50   ~ 0
+COL32
+Wire Wire Line
+	5850 950  6150 950 
+Wire Wire Line
+	5850 1050 6150 1050
+Wire Wire Line
+	5850 1150 6150 1150
+Wire Wire Line
+	5850 1250 6150 1250
+Wire Wire Line
+	5850 1350 6150 1350
+Wire Wire Line
+	5850 1450 6150 1450
+Wire Wire Line
+	5850 1550 6150 1550
+Wire Wire Line
+	5850 1650 6150 1650
+Text Label 5900 1050 0    50   ~ 0
+COL31
+Text Label 5900 1150 0    50   ~ 0
+COL30
+Text Label 5900 1250 0    50   ~ 0
+COL29
+Text Label 5900 1350 0    50   ~ 0
+COL28
+Text Label 5900 1450 0    50   ~ 0
+COL27
+Text Label 5900 1550 0    50   ~ 0
+COL26
+Text Label 5900 1650 0    50   ~ 0
+COL25
+$Comp
+L led_OSL641505 LED2
+U 1 1 60A2C3FB
+P 5400 2300
+F 0 "LED2" H 5600 2750 50  0000 C CNN
+F 1 "OSL641505-BB" H 5400 1850 50  0000 C CNN
+F 2 "A01myFootPrint:led_OSL641505" H 5400 2200 60  0001 C CNN
+F 3 "" H 5400 2200 60  0001 C CNN
+	1    5400 2300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 1950 4650 1950
+Text Label 4700 1950 0    50   ~ 0
+ROW9
+Wire Wire Line
+	4950 2050 4650 2050
+Wire Wire Line
+	4950 2150 4650 2150
+Wire Wire Line
+	4950 2250 4650 2250
+Wire Wire Line
+	4950 2350 4650 2350
+Wire Wire Line
+	4950 2450 4650 2450
+Wire Wire Line
+	4950 2550 4650 2550
+Wire Wire Line
+	4950 2650 4650 2650
+Text Label 4700 2050 0    50   ~ 0
+ROW10
+Text Label 4700 2150 0    50   ~ 0
+ROW11
+Text Label 4700 2250 0    50   ~ 0
+ROW12
+Text Label 4700 2350 0    50   ~ 0
+ROW13
+Text Label 4700 2450 0    50   ~ 0
+ROW14
+Text Label 4700 2550 0    50   ~ 0
+ROW15
+Text Label 4700 2650 0    50   ~ 0
+ROW16
+Text Label 5900 1950 0    50   ~ 0
+COL24
+Wire Wire Line
+	5850 1950 6150 1950
+Wire Wire Line
+	5850 2050 6150 2050
+Wire Wire Line
+	5850 2150 6150 2150
+Wire Wire Line
+	5850 2250 6150 2250
+Wire Wire Line
+	5850 2350 6150 2350
+Wire Wire Line
+	5850 2450 6150 2450
+Wire Wire Line
+	5850 2550 6150 2550
+Wire Wire Line
+	5850 2650 6150 2650
+Text Label 5900 2050 0    50   ~ 0
+COL23
+Text Label 5900 2150 0    50   ~ 0
+COL22
+Text Label 5900 2250 0    50   ~ 0
+COL21
+Text Label 5900 2350 0    50   ~ 0
+COL20
+Text Label 5900 2450 0    50   ~ 0
+COL19
+Text Label 5900 2550 0    50   ~ 0
+COL18
+Text Label 5900 2650 0    50   ~ 0
+COL17
+$Comp
+L led_OSL641505 LED3
+U 1 1 60A2CD05
+P 5400 3300
+F 0 "LED3" H 5600 3750 50  0000 C CNN
+F 1 "OSL641505-BB" H 5400 2850 50  0000 C CNN
+F 2 "A01myFootPrint:led_OSL641505" H 5400 3200 60  0001 C CNN
+F 3 "" H 5400 3200 60  0001 C CNN
+	1    5400 3300
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4950 2950 4650 2950
+Text Label 4700 2950 0    50   ~ 0
+ROW1
+Wire Wire Line
+	4950 3050 4650 3050
+Wire Wire Line
+	4950 3150 4650 3150
+Wire Wire Line
+	4950 3250 4650 3250
+Wire Wire Line
+	4950 3350 4650 3350
+Wire Wire Line
+	4950 3450 4650 3450
+Wire Wire Line
+	4950 3550 4650 3550
+Wire Wire Line
+	4950 3650 4650 3650
+Text Label 4700 3050 0    50   ~ 0
+ROW2
+Text Label 4700 3150 0    50   ~ 0
+ROW3
+Text Label 4700 3250 0    50   ~ 0
+ROW4
+Text Label 4700 3350 0    50   ~ 0
+ROW5
+Text Label 4700 3450 0    50   ~ 0
+ROW6
+Text Label 4700 3550 0    50   ~ 0
+ROW7
+Text Label 4700 3650 0    50   ~ 0
+ROW8
+Text Label 5900 2950 0    50   ~ 0
+COL16
+Wire Wire Line
+	5850 2950 6150 2950
+Wire Wire Line
+	5850 3050 6150 3050
+Wire Wire Line
+	5850 3150 6150 3150
+Wire Wire Line
+	5850 3250 6150 3250
+Wire Wire Line
+	5850 3350 6150 3350
+Wire Wire Line
+	5850 3450 6150 3450
+Wire Wire Line
+	5850 3550 6150 3550
+Wire Wire Line
+	5850 3650 6150 3650
+Text Label 5900 3050 0    50   ~ 0
+COL15
+Text Label 5900 3150 0    50   ~ 0
+COL14
+Text Label 5900 3250 0    50   ~ 0
+COL13
+Text Label 5900 3350 0    50   ~ 0
+COL12
+Text Label 5900 3450 0    50   ~ 0
+COL11
+Text Label 5900 3550 0    50   ~ 0
+COL10
+Text Label 5900 3650 0    50   ~ 0
+COL9
+$Comp
+L led_OSL641505 LED4
+U 1 1 60A2DD3D
+P 5400 4300
+F 0 "LED4" H 5600 4750 50  0000 C CNN
+F 1 "OSL641505-BB" H 5400 3850 50  0000 C CNN
+F 2 "A01myFootPrint:led_OSL641505" H 5400 4200 60  0001 C CNN
+F 3 "" H 5400 4200 60  0001 C CNN
+	1    5400 4300
+	-1   0    0    -1  
+$EndComp
+Text Label 5900 3950 0    50   ~ 0
+COL8
+Wire Wire Line
+	5850 3950 6150 3950
+Wire Wire Line
+	5850 4050 6150 4050
+Wire Wire Line
+	5850 4150 6150 4150
+Wire Wire Line
+	5850 4250 6150 4250
+Wire Wire Line
+	5850 4350 6150 4350
+Wire Wire Line
+	5850 4450 6150 4450
+Wire Wire Line
+	5850 4550 6150 4550
+Wire Wire Line
+	5850 4650 6150 4650
+Text Label 5900 4050 0    50   ~ 0
+COL7
+Text Label 5900 4150 0    50   ~ 0
+COL6
+Text Label 5900 4250 0    50   ~ 0
+COL5
+Text Label 5900 4350 0    50   ~ 0
+COL4
+Text Label 5900 4450 0    50   ~ 0
+COL3
+Text Label 5900 4550 0    50   ~ 0
+COL2
+Text Label 5900 4650 0    50   ~ 0
+COL1
+Wire Wire Line
+	4950 3950 4650 3950
+Text Label 4700 3950 0    50   ~ 0
+ROW9
+Wire Wire Line
+	4950 4050 4650 4050
+Wire Wire Line
+	4950 4150 4650 4150
+Wire Wire Line
+	4950 4250 4650 4250
+Wire Wire Line
+	4950 4350 4650 4350
+Wire Wire Line
+	4950 4450 4650 4450
+Wire Wire Line
+	4950 4550 4650 4550
+Wire Wire Line
+	4950 4650 4650 4650
+Text Label 4700 4050 0    50   ~ 0
+ROW10
+Text Label 4700 4150 0    50   ~ 0
+ROW11
+Text Label 4700 4250 0    50   ~ 0
+ROW12
+Text Label 4700 4350 0    50   ~ 0
+ROW13
+Text Label 4700 4450 0    50   ~ 0
+ROW14
+Text Label 4700 4550 0    50   ~ 0
+ROW15
+Text Label 4700 4650 0    50   ~ 0
+ROW16
+$Comp
+L HIF3FC-16PA-2.54DSA CN4
+U 1 1 60A22A94
+P 3850 1700
+F 0 "CN4" H 3900 2550 50  0000 C CNN
+F 1 "HIF3FB-16DA-2.54DSA" H 3550 850 50  0000 C CNN
+F 2 "A01myFootPrint:cn_HIF3FC-16PA-254DSA" H 3850 450 60  0001 C CNN
+F 3 "" H 3850 450 60  0001 C CNN
+	1    3850 1700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4450 950  4150 950 
+Text Label 4200 950  0    50   ~ 0
+ROW1
+Wire Wire Line
+	4450 1050 4150 1050
+Wire Wire Line
+	4450 1150 4150 1150
+Wire Wire Line
+	4450 1250 4150 1250
+Wire Wire Line
+	4450 1350 4150 1350
+Wire Wire Line
+	4450 1450 4150 1450
+Wire Wire Line
+	4450 1550 4150 1550
+Wire Wire Line
+	4450 1650 4150 1650
+Text Label 4200 1050 0    50   ~ 0
+ROW2
+Text Label 4200 1150 0    50   ~ 0
+ROW3
+Text Label 4200 1250 0    50   ~ 0
+ROW4
+Text Label 4200 1350 0    50   ~ 0
+ROW5
+Text Label 4200 1450 0    50   ~ 0
+ROW6
+Text Label 4200 1550 0    50   ~ 0
+ROW7
+Text Label 4200 1650 0    50   ~ 0
+ROW8
+Wire Wire Line
+	4450 1750 4150 1750
+Text Label 4200 1750 0    50   ~ 0
+ROW9
+Wire Wire Line
+	4450 1850 4150 1850
+Wire Wire Line
+	4450 1950 4150 1950
+Wire Wire Line
+	4450 2050 4150 2050
+Wire Wire Line
+	4450 2150 4150 2150
+Wire Wire Line
+	4450 2250 4150 2250
+Wire Wire Line
+	4450 2350 4150 2350
+Wire Wire Line
+	4450 2450 4150 2450
+Text Label 4200 1850 0    50   ~ 0
+ROW10
+Text Label 4200 1950 0    50   ~ 0
+ROW11
+Text Label 4200 2050 0    50   ~ 0
+ROW12
+Text Label 4200 2150 0    50   ~ 0
+ROW13
+Text Label 4200 2250 0    50   ~ 0
+ROW14
+Text Label 4200 2350 0    50   ~ 0
+ROW15
+Text Label 4200 2450 0    50   ~ 0
+ROW16
+$Comp
+L HIF3FC-16PA-2.54DSA CN1
+U 1 1 60A22EA1
+P 6950 1700
+F 0 "CN1" H 6900 2550 50  0000 C CNN
+F 1 "HIF3FB-16DA-2.54DSA" H 6800 850 50  0000 C CNN
+F 2 "A01myFootPrint:cn_HIF3FC-16PA-254DSA" H 6950 450 60  0001 C CNN
+F 3 "" H 6950 450 60  0001 C CNN
+	1    6950 1700
+	1    0    0    -1  
+$EndComp
+Text Label 6400 950  0    50   ~ 0
+COL32
+Wire Wire Line
+	6350 950  6650 950 
+Wire Wire Line
+	6350 1050 6650 1050
+Wire Wire Line
+	6350 1150 6650 1150
+Wire Wire Line
+	6350 1250 6650 1250
+Wire Wire Line
+	6350 1350 6650 1350
+Wire Wire Line
+	6350 1450 6650 1450
+Wire Wire Line
+	6350 1550 6650 1550
+Wire Wire Line
+	6350 1650 6650 1650
+Text Label 6400 1050 0    50   ~ 0
+COL31
+Text Label 6400 1150 0    50   ~ 0
+COL30
+Text Label 6400 1250 0    50   ~ 0
+COL29
+Text Label 6400 1350 0    50   ~ 0
+COL28
+Text Label 6400 1450 0    50   ~ 0
+COL27
+Text Label 6400 1550 0    50   ~ 0
+COL26
+Text Label 6400 1650 0    50   ~ 0
+COL25
+Text Label 6400 1750 0    50   ~ 0
+COL24
+Wire Wire Line
+	6350 1750 6650 1750
+Wire Wire Line
+	6350 1850 6650 1850
+Wire Wire Line
+	6350 1950 6650 1950
+Wire Wire Line
+	6350 2050 6650 2050
+Wire Wire Line
+	6350 2150 6650 2150
+Wire Wire Line
+	6350 2250 6650 2250
+Wire Wire Line
+	6350 2350 6650 2350
+Wire Wire Line
+	6350 2450 6650 2450
+Text Label 6400 1850 0    50   ~ 0
+COL23
+Text Label 6400 1950 0    50   ~ 0
+COL22
+Text Label 6400 2050 0    50   ~ 0
+COL21
+Text Label 6400 2150 0    50   ~ 0
+COL20
+Text Label 6400 2250 0    50   ~ 0
+COL19
+Text Label 6400 2350 0    50   ~ 0
+COL18
+Text Label 6400 2450 0    50   ~ 0
+COL17
+$Comp
+L HIF3FC-16PA-2.54DSA CN2
+U 1 1 60A231D0
+P 6950 3500
+F 0 "CN2" H 6900 4350 50  0000 C CNN
+F 1 "HIF3FB-16DA-2.54DSA" H 6800 2650 50  0000 C CNN
+F 2 "A01myFootPrint:cn_HIF3FC-16PA-254DSA" H 6950 2250 60  0001 C CNN
+F 3 "" H 6950 2250 60  0001 C CNN
+	1    6950 3500
+	1    0    0    -1  
+$EndComp
+Text Label 6400 2750 0    50   ~ 0
+COL16
+Wire Wire Line
+	6350 2750 6650 2750
+Wire Wire Line
+	6350 2850 6650 2850
+Wire Wire Line
+	6350 2950 6650 2950
+Wire Wire Line
+	6350 3050 6650 3050
+Wire Wire Line
+	6350 3150 6650 3150
+Wire Wire Line
+	6350 3250 6650 3250
+Wire Wire Line
+	6350 3350 6650 3350
+Wire Wire Line
+	6350 3450 6650 3450
+Text Label 6400 2850 0    50   ~ 0
+COL15
+Text Label 6400 2950 0    50   ~ 0
+COL14
+Text Label 6400 3050 0    50   ~ 0
+COL13
+Text Label 6400 3150 0    50   ~ 0
+COL12
+Text Label 6400 3250 0    50   ~ 0
+COL11
+Text Label 6400 3350 0    50   ~ 0
+COL10
+Text Label 6400 3450 0    50   ~ 0
+COL9
+Text Label 6400 3550 0    50   ~ 0
+COL8
+Wire Wire Line
+	6350 3550 6650 3550
+Wire Wire Line
+	6350 3650 6650 3650
+Wire Wire Line
+	6350 3750 6650 3750
+Wire Wire Line
+	6350 3850 6650 3850
+Wire Wire Line
+	6350 3950 6650 3950
+Wire Wire Line
+	6350 4050 6650 4050
+Wire Wire Line
+	6350 4150 6650 4150
+Wire Wire Line
+	6350 4250 6650 4250
+Text Label 6400 3650 0    50   ~ 0
+COL7
+Text Label 6400 3750 0    50   ~ 0
+COL6
+Text Label 6400 3850 0    50   ~ 0
+COL5
+Text Label 6400 3950 0    50   ~ 0
+COL4
+Text Label 6400 4050 0    50   ~ 0
+COL3
+Text Label 6400 4150 0    50   ~ 0
+COL2
+Text Label 6400 4250 0    50   ~ 0
+COL1
+Text Notes 5150 800  0    50   ~ 0
+ANODE COMMON
+$EndSCHEMATC
