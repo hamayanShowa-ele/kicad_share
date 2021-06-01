@@ -1,4 +1,4 @@
-update=2021/05/31 14:15:21
+update=2021/06/01 10:50:28
 version=1
 last_client=kicad
 [pcbnew]
@@ -48,6 +48,8 @@ LibName16=D:/Dropbox/projects/kicad/myLibrary/pcb_ae-gnss
 LibName17=D:/Dropbox/projects/kicad/myLibrary/cn_ch005-2032lf
 LibName18=D:/Dropbox/projects/kicad/myLibrary/pcb_bme680_strawberry-linux
 LibName19=D:/Dropbox/projects/kicad/myLibrary/pcb_ccs811_strawberry-linux
+LibName20=D:/Dropbox/projects/kicad/myLibrary/ic_osrb38c9aa
+LibName21=D:/Dropbox/projects/kicad/myLibrary/jp_JUMPER
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
