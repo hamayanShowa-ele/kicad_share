@@ -1,0 +1,8 @@
+# git ignore file
+# designed by hamayan.
+
+# not need a.out
+*.bck
+
+# not need logs folder
+# logs/
