@@ -3,7 +3,7 @@
   (general
     (links 137)
     (no_connects 0)
-    (area 49.899999 49.899999 126.100001 142.100001)
+    (area 41.221429 41.3 130.128572 144.223)
     (thickness 1.6)
     (drawings 70)
     (tracks 575)
@@ -20,14 +20,14 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
+    (0 F.Cu signal)
     (31 B.Cu signal)
     (32 B.Adhes user hide)
     (33 F.Adhes user hide)
     (34 B.Paste user hide)
     (35 F.Paste user hide)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -43,7 +43,7 @@
   )
 
   (setup
-    (last_trace_width 1.6)
+    (last_trace_width 0.25)
     (user_trace_width 0.35)
     (user_trace_width 0.5)
     (user_trace_width 0.8)
@@ -79,7 +79,7 @@
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 50.002 50.008)
     (grid_origin 50.002 50.008)
-    (visible_elements 7FFEBDDF)
+    (visible_elements 7FFEFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
