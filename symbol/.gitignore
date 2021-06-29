@@ -3,6 +3,7 @@
 
 # not need a.out
 *.bck
+*.kicad_pcb-bak
 
 # not need logs folder
 # logs/

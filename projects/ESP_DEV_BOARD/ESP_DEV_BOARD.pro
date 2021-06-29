@@ -1,4 +1,4 @@
-update=2021/06/01 10:50:28
+update=2021/06/29 9:32:33
 version=1
 last_client=kicad
 [pcbnew]
@@ -25,31 +25,6 @@ version=1
 NetIExt=net
 [general]
 version=1
-[eeschema]
-version=1
-LibDir=D:/Dropbox/projects/kicad/myLibrary
-[eeschema/libraries]
-LibName1=power
-LibName2=D:/Dropbox/projects/kicad/myLibrary/pcb_esp32-devkitc-32e
-LibName3=D:/Dropbox/projects/kicad/myLibrary/pcb_ae-esp-wroom02-dev
-LibName4=D:/Dropbox/projects/kicad/myLibrary/pcb_nucleo64_arduino
-LibName5=D:/Dropbox/projects/kicad/myLibrary/cn_connectors
-LibName6=D:/Dropbox/projects/kicad/myLibrary/cn_MJ-179P
-LibName7=D:/Dropbox/projects/kicad/myLibrary/c_np_small
-LibName8=D:/Dropbox/projects/kicad/myLibrary/cp1_small
-LibName9=D:/Dropbox/projects/kicad/myLibrary/tb_lc-2-g
-LibName10=D:/Dropbox/projects/kicad/myLibrary/led_LED3MM
-LibName11=D:/Dropbox/projects/kicad/myLibrary/r_register
-LibName12=D:/Dropbox/projects/kicad/myLibrary/pcb_arduino_uno
-LibName13=D:/Dropbox/projects/kicad/myLibrary/cn_micro_sd_card_det
-LibName14=D:/Dropbox/projects/kicad/myLibrary/l_Inductor
-LibName15=D:/Dropbox/projects/kicad/myLibrary/sw_skhhby
-LibName16=D:/Dropbox/projects/kicad/myLibrary/pcb_ae-gnss
-LibName17=D:/Dropbox/projects/kicad/myLibrary/cn_ch005-2032lf
-LibName18=D:/Dropbox/projects/kicad/myLibrary/pcb_bme680_strawberry-linux
-LibName19=D:/Dropbox/projects/kicad/myLibrary/pcb_ccs811_strawberry-linux
-LibName20=D:/Dropbox/projects/kicad/myLibrary/ic_osrb38c9aa
-LibName21=D:/Dropbox/projects/kicad/myLibrary/jp_JUMPER
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
@@ -60,3 +35,6 @@ NetFmtName=Pcbnew
 SpiceForceRefPrefix=0
 SpiceUseNetNumbers=0
 LabSize=50
+[eeschema]
+version=1
+LibDir=

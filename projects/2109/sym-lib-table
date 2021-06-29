@@ -1,0 +1,9 @@
+(sym_lib_table
+  (lib (name connectors)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/connectors.lib)(options "")(descr ""))
+  (lib (name tab_check_terminal)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/tab_check_terminal.lib)(options "")(descr ""))
+  (lib (name 74xx)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/74xx.lib)(options "")(descr ""))
+  (lib (name capacitor)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/capacitor.lib)(options "")(descr ""))
+  (lib (name switches)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/switches.lib)(options "")(descr ""))
+  (lib (name register)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/register.lib)(options "")(descr ""))
+  (lib (name LED)(type Legacy)(uri C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/LED.lib)(options "")(descr ""))
+)
