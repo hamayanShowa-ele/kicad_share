@@ -1,0 +1,12 @@
+# git ignore file
+# designed by hamayan.
+
+# not need *.hoge
+*.bck
+*.sch-bak
+*.kicad_pcb-bak
+*.bak
+*.zip
+
+# not need rescue-backup folder
+rescue-backup/
