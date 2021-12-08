@@ -2593,4 +2593,224 @@ Wire Wire Line
 	4900 1600 4550 1600
 Text Label 4600 1600 0    50   ~ 0
 Q23
+$Comp
+L connectors:2PIN CN?
+U 1 1 61CA2F87
+P 7450 6200
+AR Path="/61AA6AFE/61CA2F87" Ref="CN?"  Part="1" 
+AR Path="/61F79E7A/61CA2F87" Ref="CN16"  Part="1" 
+F 0 "CN16" H 7350 6350 50  0000 L CNN
+F 1 "S2B-XH-A" H 7200 6050 50  0000 L CNN
+F 2 "A01myFootPrint:S2B-XH-A" H 7450 6200 60  0001 C CNN
+F 3 "" H 7450 6200 60  0001 C CNN
+	1    7450 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CA2F8D
+P 7050 6300
+AR Path="/61CA2F8D" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2F8D" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2F8D" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2F8D" Ref="#PWR0216"  Part="1" 
+F 0 "#PWR0216" H 7050 6050 50  0001 C CNN
+F 1 "GND" H 7050 6150 50  0000 C CNN
+F 2 "" H 7050 6300 50  0001 C CNN
+F 3 "" H 7050 6300 50  0001 C CNN
+	1    7050 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61CA2F93
+P 7050 6100
+AR Path="/61CA2F93" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2F93" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2F93" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2F93" Ref="#PWR0215"  Part="1" 
+F 0 "#PWR0215" H 7050 5950 50  0001 C CNN
+F 1 "+5V" H 7050 6250 50  0000 C CNN
+F 2 "" H 7050 6100 50  0001 C CNN
+F 3 "" H 7050 6100 50  0001 C CNN
+	1    7050 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 6150 7050 6150
+Wire Wire Line
+	7050 6150 7050 6100
+Wire Wire Line
+	7150 6250 7050 6250
+Wire Wire Line
+	7050 6250 7050 6300
+Text Notes 7600 6250 0    50   ~ 0
+GND
+Text Notes 7600 6150 0    50   ~ 0
++5V
+$Comp
+L connectors:2PIN CN?
+U 1 1 61CA2F9F
+P 8250 6200
+AR Path="/61AA6AFE/61CA2F9F" Ref="CN?"  Part="1" 
+AR Path="/61F79E7A/61CA2F9F" Ref="CN17"  Part="1" 
+F 0 "CN17" H 8150 6350 50  0000 L CNN
+F 1 "S2B-XH-A" H 8000 6050 50  0000 L CNN
+F 2 "A01myFootPrint:S2B-XH-A" H 8250 6200 60  0001 C CNN
+F 3 "" H 8250 6200 60  0001 C CNN
+	1    8250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CA2FA5
+P 7850 6300
+AR Path="/61CA2FA5" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FA5" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FA5" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FA5" Ref="#PWR0218"  Part="1" 
+F 0 "#PWR0218" H 7850 6050 50  0001 C CNN
+F 1 "GND" H 7850 6150 50  0000 C CNN
+F 2 "" H 7850 6300 50  0001 C CNN
+F 3 "" H 7850 6300 50  0001 C CNN
+	1    7850 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61CA2FAB
+P 7850 6100
+AR Path="/61CA2FAB" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FAB" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FAB" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FAB" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 7850 5950 50  0001 C CNN
+F 1 "+5V" H 7850 6250 50  0000 C CNN
+F 2 "" H 7850 6100 50  0001 C CNN
+F 3 "" H 7850 6100 50  0001 C CNN
+	1    7850 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7950 6150 7850 6150
+Wire Wire Line
+	7850 6150 7850 6100
+Wire Wire Line
+	7950 6250 7850 6250
+Wire Wire Line
+	7850 6250 7850 6300
+Text Notes 8400 6250 0    50   ~ 0
+GND
+Text Notes 8400 6150 0    50   ~ 0
++5V
+$Comp
+L connectors:2PIN CN?
+U 1 1 61CA2FB7
+P 9050 6200
+AR Path="/61AA6AFE/61CA2FB7" Ref="CN?"  Part="1" 
+AR Path="/61F79E7A/61CA2FB7" Ref="CN18"  Part="1" 
+F 0 "CN18" H 8950 6350 50  0000 L CNN
+F 1 "B2B-XH-A" H 8800 6050 50  0000 L CNN
+F 2 "A01myFootPrint:cn_B2B-XH-A" H 9050 6200 60  0001 C CNN
+F 3 "" H 9050 6200 60  0001 C CNN
+	1    9050 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CA2FBD
+P 8650 6300
+AR Path="/61CA2FBD" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FBD" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FBD" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FBD" Ref="#PWR0220"  Part="1" 
+F 0 "#PWR0220" H 8650 6050 50  0001 C CNN
+F 1 "GND" H 8650 6150 50  0000 C CNN
+F 2 "" H 8650 6300 50  0001 C CNN
+F 3 "" H 8650 6300 50  0001 C CNN
+	1    8650 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61CA2FC3
+P 8650 6100
+AR Path="/61CA2FC3" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FC3" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FC3" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FC3" Ref="#PWR0219"  Part="1" 
+F 0 "#PWR0219" H 8650 5950 50  0001 C CNN
+F 1 "+5V" H 8650 6250 50  0000 C CNN
+F 2 "" H 8650 6100 50  0001 C CNN
+F 3 "" H 8650 6100 50  0001 C CNN
+	1    8650 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 6150 8650 6150
+Wire Wire Line
+	8650 6150 8650 6100
+Wire Wire Line
+	8750 6250 8650 6250
+Wire Wire Line
+	8650 6250 8650 6300
+Text Notes 9200 6250 0    50   ~ 0
+GND
+Text Notes 9200 6150 0    50   ~ 0
++5V
+$Comp
+L connectors:2PIN CN?
+U 1 1 61CA2FCF
+P 9850 6200
+AR Path="/61AA6AFE/61CA2FCF" Ref="CN?"  Part="1" 
+AR Path="/61F79E7A/61CA2FCF" Ref="CN19"  Part="1" 
+F 0 "CN19" H 9750 6350 50  0000 L CNN
+F 1 "B2B-XH-A" H 9600 6050 50  0000 L CNN
+F 2 "A01myFootPrint:cn_B2B-XH-A" H 9850 6200 60  0001 C CNN
+F 3 "" H 9850 6200 60  0001 C CNN
+	1    9850 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61CA2FD5
+P 9450 6300
+AR Path="/61CA2FD5" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FD5" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FD5" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FD5" Ref="#PWR0222"  Part="1" 
+F 0 "#PWR0222" H 9450 6050 50  0001 C CNN
+F 1 "GND" H 9450 6150 50  0000 C CNN
+F 2 "" H 9450 6300 50  0001 C CNN
+F 3 "" H 9450 6300 50  0001 C CNN
+	1    9450 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 61CA2FDB
+P 9450 6100
+AR Path="/61CA2FDB" Ref="#PWR?"  Part="1" 
+AR Path="/61BC7329/61CA2FDB" Ref="#PWR?"  Part="1" 
+AR Path="/61AA6AFE/61CA2FDB" Ref="#PWR?"  Part="1" 
+AR Path="/61F79E7A/61CA2FDB" Ref="#PWR0221"  Part="1" 
+F 0 "#PWR0221" H 9450 5950 50  0001 C CNN
+F 1 "+5V" H 9450 6250 50  0000 C CNN
+F 2 "" H 9450 6100 50  0001 C CNN
+F 3 "" H 9450 6100 50  0001 C CNN
+	1    9450 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9550 6150 9450 6150
+Wire Wire Line
+	9450 6150 9450 6100
+Wire Wire Line
+	9550 6250 9450 6250
+Wire Wire Line
+	9450 6250 9450 6300
+Text Notes 10000 6250 0    50   ~ 0
+GND
+Text Notes 10000 6150 0    50   ~ 0
++5V
 $EndSCHEMATC
