@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\hamay\OneDrive\kicad\2202\2202_unit_display.sch</source>
+    <date>2022/06/30 13:03:43</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>2202 UNIT DISPLAY</title>
+        <company/>
+        <rev>0</rev>
+        <date/>
+        <source>2202_unit_display.sch</source>
+        <comment number="1" value="designed by hamayan."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN2">
+      <value>B6B-XH-A</value>
+      <footprint>footprint:cn_B6B-XH-A</footprint>
+      <libsource lib="connectors" part="6PIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B49D82</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>22uF/16V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B4EBE5</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>GREEN</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B506FA</tstamp>
+    </comp>
+    <comp ref="LED3">
+      <value>GREEN</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B51074</tstamp>
+    </comp>
+    <comp ref="LED4">
+      <value>GREEN</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B51C66</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>GREEN</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B52118</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>74HCT04</value>
+      <footprint>footprint:ic_DIP-14_W7.62mm</footprint>
+      <libsource lib="IC" part="ic_74HC04" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B52D69</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B608F4</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B6178F</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B69557</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B69745</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B6E50D</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B5439F</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>10K</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B8B4BE</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10K</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B8C298</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B8C4B8</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>470</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BC8859</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>10K</value>
+      <footprint>footprint:R_TH_5R08</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B6750B</tstamp>
+    </comp>
+    <comp ref="K1">
+      <value>AQV255</value>
+      <footprint>footprint:ic_DIP-6_W7.62mm</footprint>
+      <libsource lib="relay" part="AQV255" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B6DF4B</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>B2B-XH-A</value>
+      <footprint>footprint:cn_B2B-XH-A</footprint>
+      <libsource lib="connectors" part="2PIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B7F77E</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>B2B-XH-A</value>
+      <footprint>footprint:cn_B2B-XH-A</footprint>
+      <libsource lib="connectors" part="2PIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B858A4</tstamp>
+    </comp>
+    <comp ref="JP1">
+      <value>JUMPER2*1</value>
+      <footprint>footprint:JP_JUMPER1x2</footprint>
+      <libsource lib="JUMPER" part="JUMPER2*1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B8AE19</tstamp>
+    </comp>
+    <comp ref="LED5">
+      <value>RED</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B9452D</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="IC" part="ic_74HC04">
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">ic_74HC04</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="input"/>
+        <pin num="2" name="~" type="output"/>
+        <pin num="3" name="~" type="input"/>
+        <pin num="4" name="~" type="output"/>
+        <pin num="5" name="~" type="input"/>
+        <pin num="6" name="~" type="output"/>
+        <pin num="7" name="GNDA" type="power_in"/>
+        <pin num="8" name="~" type="output"/>
+        <pin num="9" name="~" type="input"/>
+        <pin num="10" name="~" type="output"/>
+        <pin num="11" name="~" type="input"/>
+        <pin num="12" name="~" type="output"/>
+        <pin num="13" name="~" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="JUMPER" part="JUMPER2*1">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER2*1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="CP1_Small">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="2PIN">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">2PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="6PIN">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">6PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="register" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="relay" part="AQV255">
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">AQV255</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+        <pin num="3" name="NC" type="passive"/>
+        <pin num="4" name="D2" type="passive"/>
+        <pin num="5" name="S" type="passive"/>
+        <pin num="6" name="D1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="IC">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/IC.lib</uri>
+    </library>
+    <library logical="JUMPER">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/JUMPER.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/LED.lib</uri>
+    </library>
+    <library logical="capacitor">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/capacitor.lib</uri>
+    </library>
+    <library logical="connectors">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/connectors.lib</uri>
+    </library>
+    <library logical="register">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/register.lib</uri>
+    </library>
+    <library logical="relay">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/relay.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/IO3">
+      <node ref="CN2" pin="4"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="2" name="Net-(LED1-Pad1)">
+      <node ref="R6" pin="1"/>
+      <node ref="LED1" pin="1"/>
+    </net>
+    <net code="3" name="Net-(LED2-Pad1)">
+      <node ref="R7" pin="1"/>
+      <node ref="LED2" pin="1"/>
+    </net>
+    <net code="4" name="Net-(LED3-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="LED3" pin="1"/>
+    </net>
+    <net code="5" name="Net-(LED4-Pad1)">
+      <node ref="LED4" pin="1"/>
+      <node ref="R9" pin="1"/>
+    </net>
+    <net code="6" name="Net-(K1-Pad1)">
+      <node ref="R10" pin="1"/>
+      <node ref="K1" pin="1"/>
+    </net>
+    <net code="7" name="Net-(K1-Pad3)">
+      <node ref="K1" pin="3"/>
+    </net>
+    <net code="8" name="/IO2">
+      <node ref="CN2" pin="3"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC1" pin="13"/>
+    </net>
+    <net code="9" name="/IO0">
+      <node ref="R1" pin="1"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="IC1" pin="9"/>
+    </net>
+    <net code="10" name="/IO1">
+      <node ref="IC1" pin="11"/>
+      <node ref="R2" pin="1"/>
+      <node ref="CN2" pin="2"/>
+    </net>
+    <net code="11" name="Net-(CN3-Pad1)">
+      <node ref="K1" pin="4"/>
+      <node ref="CN3" pin="1"/>
+    </net>
+    <net code="12" name="Net-(JP1-Pad2)">
+      <node ref="JP1" pin="2"/>
+      <node ref="LED5" pin="1"/>
+      <node ref="R5" pin="1"/>
+    </net>
+    <net code="13" name="Net-(CN4-Pad2)">
+      <node ref="LED5" pin="2"/>
+      <node ref="CN4" pin="2"/>
+    </net>
+    <net code="14" name="Net-(IC1-Pad6)">
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="15" name="Net-(IC1-Pad4)">
+      <node ref="IC1" pin="4"/>
+    </net>
+    <net code="16" name="GND">
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="5"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="C2" pin="1"/>
+      <node ref="C1" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="CN2" pin="6"/>
+      <node ref="CN3" pin="2"/>
+      <node ref="IC1" pin="7"/>
+      <node ref="K1" pin="2"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="LED4" pin="2"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="LED3" pin="2"/>
+    </net>
+    <net code="17" name="Net-(K1-Pad5)">
+      <node ref="K1" pin="5"/>
+    </net>
+    <net code="18" name="Net-(IC1-Pad8)">
+      <node ref="IC1" pin="8"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="19" name="Net-(IC1-Pad10)">
+      <node ref="IC1" pin="10"/>
+      <node ref="R8" pin="2"/>
+    </net>
+    <net code="20" name="Net-(IC1-Pad12)">
+      <node ref="IC1" pin="12"/>
+      <node ref="R9" pin="2"/>
+    </net>
+    <net code="21" name="Net-(IC1-Pad2)">
+      <node ref="R10" pin="2"/>
+      <node ref="IC1" pin="2"/>
+    </net>
+    <net code="22" name="Net-(CN4-Pad1)">
+      <node ref="CN4" pin="1"/>
+      <node ref="JP1" pin="1"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="23" name="+5V">
+      <node ref="R6" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="R4" pin="2"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="CN2" pin="5"/>
+      <node ref="IC1" pin="14"/>
+      <node ref="C1" pin="1"/>
+      <node ref="K1" pin="6"/>
+      <node ref="C2" pin="2"/>
+      <node ref="IC1" pin="14"/>
+    </net>
+  </nets>
+</export>
