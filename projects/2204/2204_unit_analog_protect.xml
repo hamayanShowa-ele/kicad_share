@@ -1,0 +1,1972 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\hamay\OneDrive\kicad\kicad_share\projects\2204\2204_unit_analog_protect.sch</source>
+    <date>2022/07/05 11:02:52</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>2204 UNIT ANALOG PROTECT BOARD</title>
+        <company/>
+        <rev>0</rev>
+        <date/>
+        <source>2204_unit_analog_protect.sch</source>
+        <comment number="1" value="designed by hamayan."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/PROTECT/" tstamps="/62B9E108/">
+      <title_block>
+        <title>2204 UNIT ANALOG PROTECT BOARD</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PROTECT.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/BUFFER1/" tstamps="/62C3B256/">
+      <title_block>
+        <title>2204 UNIT ANALOG PROTECT BOARD</title>
+        <company/>
+        <rev/>
+        <date/>
+        <source>BUFFER1.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="R17">
+      <value>3K</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4CB97</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>HIF3FC-16PA-2.54DS</value>
+      <footprint>footprint:cn_HIF3FC-16PA-254DS</footprint>
+      <libsource lib="cn_hif3fc-16pa-2" part="HIF3FC-16PA-2.54DSA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4EC6E</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>B2PS-VH</value>
+      <footprint>footprint:cn_B2PS-VH</footprint>
+      <libsource lib="cn_b2b-xh-a" part="B2B-XH-A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4ED7A</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220uF/10V</value>
+      <footprint>footprint:CP_Radial_D8.00mm_P2.50mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BA154B</tstamp>
+    </comp>
+    <comp ref="TP1">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BA34FA</tstamp>
+    </comp>
+    <comp ref="TP2">
+      <value>ST-2-1</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="ST-2-1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BA4C2A</tstamp>
+    </comp>
+    <comp ref="LED1">
+      <value>GREEN</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BA6D0B</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>22uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BB97F7</tstamp>
+    </comp>
+    <comp ref="TP3">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BBCD19</tstamp>
+    </comp>
+    <comp ref="TP4">
+      <value>ST-2-1</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="ST-2-1" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BBFA7E</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>CC3-0512DF-E</value>
+      <footprint>footprint:u_CC3-0512SF-E</footprint>
+      <libsource lib="power_unit" part="CC3-0512DF-E" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B962F0</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>CCG3-12-15DF</value>
+      <footprint>footprint:u_CCG3-12-15DF</footprint>
+      <libsource lib="power_unit" part="CCG3-12-15DF" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62B98F0A</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>RB160L-40</value>
+      <footprint>footprint:d_RB160L-40</footprint>
+      <libsource lib="diode" part="Schottky" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BB2A17</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>RB160L-40</value>
+      <footprint>footprint:d_RB160L-40</footprint>
+      <libsource lib="diode" part="Schottky" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BB37A8</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>22uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BC5D2B</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>LAL04SK4R7K</value>
+      <footprint>footprint:l_LAL04SK4R7K</footprint>
+      <libsource lib="Inductor" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BC6D86</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>LAL04SK4R7K</value>
+      <footprint>footprint:l_LAL04SK4R7K</footprint>
+      <libsource lib="Inductor" part="L" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BC7E44</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BE315C</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62BE368C</tstamp>
+    </comp>
+    <comp ref="TP5">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C1350A</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A</footprint>
+      <libsource lib="connectors" part="4PIN" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C2A241</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>3K</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C885BC</tstamp>
+    </comp>
+    <comp ref="LED2">
+      <value>ORANGE</value>
+      <footprint>footprint:LED_D3.0mm_center</footprint>
+      <libsource lib="LED" part="LED" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C88D98</tstamp>
+    </comp>
+    <comp ref="CN4">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A</footprint>
+      <libsource lib="connectors" part="4PIN" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62B9EA46</tstamp>
+    </comp>
+    <comp ref="FL1">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BA26CB</tstamp>
+    </comp>
+    <comp ref="FL2">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BA35AA</tstamp>
+    </comp>
+    <comp ref="FL3">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BA4A8A</tstamp>
+    </comp>
+    <comp ref="FL4">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BA4A90</tstamp>
+    </comp>
+    <comp ref="TVS1">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BA8D05</tstamp>
+    </comp>
+    <comp ref="TVS2">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BAA00D</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BC489B</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BC6A52</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BD2191</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BD267D</tstamp>
+    </comp>
+    <comp ref="CN5">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A</footprint>
+      <libsource lib="connectors" part="4PIN" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA8EE</tstamp>
+    </comp>
+    <comp ref="FL5">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA8FA</tstamp>
+    </comp>
+    <comp ref="FL6">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA900</tstamp>
+    </comp>
+    <comp ref="FL7">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA906</tstamp>
+    </comp>
+    <comp ref="FL8">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA90C</tstamp>
+    </comp>
+    <comp ref="TVS3">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA91C</tstamp>
+    </comp>
+    <comp ref="TVS4">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA925</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA93A</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA940</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA94C</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BEA952</tstamp>
+    </comp>
+    <comp ref="CN6">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A</footprint>
+      <libsource lib="connectors" part="4PIN" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15AB</tstamp>
+    </comp>
+    <comp ref="FL9">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15B7</tstamp>
+    </comp>
+    <comp ref="FL10">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15BD</tstamp>
+    </comp>
+    <comp ref="FL11">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15C3</tstamp>
+    </comp>
+    <comp ref="FL12">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15C9</tstamp>
+    </comp>
+    <comp ref="TVS5">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15D9</tstamp>
+    </comp>
+    <comp ref="TVS6">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15E2</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15F7</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF15FD</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF1609</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BF160F</tstamp>
+    </comp>
+    <comp ref="CN7">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A</footprint>
+      <libsource lib="connectors" part="4PIN" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAF7E</tstamp>
+    </comp>
+    <comp ref="FL13">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAF8A</tstamp>
+    </comp>
+    <comp ref="FL14">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAF90</tstamp>
+    </comp>
+    <comp ref="FL15">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAF96</tstamp>
+    </comp>
+    <comp ref="FL16">
+      <value>ZBF503D-00(TA)-01</value>
+      <footprint>footprint:fl_ZBF503D-00</footprint>
+      <libsource lib="emi_filter" part="Ferrite_Bead_Small" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAF9C</tstamp>
+    </comp>
+    <comp ref="TVS7">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFAC</tstamp>
+    </comp>
+    <comp ref="TVS8">
+      <value>ZS1018</value>
+      <footprint>footprint:d_ZS1018</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFB5</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFCA</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFD0</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFDC</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>N.M.</value>
+      <footprint>footprint:C_3216</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/PROTECT/" tstamps="/62B9E108/"/>
+      <tstamp>62BFAFE2</tstamp>
+    </comp>
+    <comp ref="IC1">
+      <value>OP2177ARZ</value>
+      <footprint>footprint:SOIC-8</footprint>
+      <libsource lib="IC" part="4558" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C3C156</tstamp>
+    </comp>
+    <comp ref="TP10">
+      <value>ST-2-1</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="ST-2-1" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C3FD38</tstamp>
+    </comp>
+    <comp ref="C11">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C40FB7</tstamp>
+    </comp>
+    <comp ref="C12">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C42B8A</tstamp>
+    </comp>
+    <comp ref="R27">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C464BF</tstamp>
+    </comp>
+    <comp ref="R31">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C470A6</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C473A7</tstamp>
+    </comp>
+    <comp ref="TP6">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C4A5F4</tstamp>
+    </comp>
+    <comp ref="R28">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C4F1C3</tstamp>
+    </comp>
+    <comp ref="R32">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C4F1C9</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C4F1CF</tstamp>
+    </comp>
+    <comp ref="TP7">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C4F1E6</tstamp>
+    </comp>
+    <comp ref="R39">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C5BE2F</tstamp>
+    </comp>
+    <comp ref="R43">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C5C1CB</tstamp>
+    </comp>
+    <comp ref="R35">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C5C4A0</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>OP2177ARZ</value>
+      <footprint>footprint:SOIC-8</footprint>
+      <libsource lib="IC" part="4558" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D38B</tstamp>
+    </comp>
+    <comp ref="C13">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D397</tstamp>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3A3</tstamp>
+    </comp>
+    <comp ref="R29">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3C1</tstamp>
+    </comp>
+    <comp ref="R33">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3C7</tstamp>
+    </comp>
+    <comp ref="R25">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3CD</tstamp>
+    </comp>
+    <comp ref="TP8">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3E4</tstamp>
+    </comp>
+    <comp ref="R30">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3F2</tstamp>
+    </comp>
+    <comp ref="R34">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3F8</tstamp>
+    </comp>
+    <comp ref="R26">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D3FE</tstamp>
+    </comp>
+    <comp ref="TP9">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62C8D415</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62BD0579</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62BCF532</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC213F</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC29D4</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC3874</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC4323</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC4EB4</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC53B8</tstamp>
+    </comp>
+    <comp ref="R36">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC85A3</tstamp>
+    </comp>
+    <comp ref="R37">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC8A4E</tstamp>
+    </comp>
+    <comp ref="R38">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC8E95</tstamp>
+    </comp>
+    <comp ref="R40">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC922E</tstamp>
+    </comp>
+    <comp ref="R41">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC976F</tstamp>
+    </comp>
+    <comp ref="R42">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CC9B5E</tstamp>
+    </comp>
+    <comp ref="R44">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CCA4AA</tstamp>
+    </comp>
+    <comp ref="R45">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CCA8BB</tstamp>
+    </comp>
+    <comp ref="R46">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CCADAF</tstamp>
+    </comp>
+    <comp ref="IC3">
+      <value>OP2177ARZ</value>
+      <footprint>footprint:SOIC-8</footprint>
+      <libsource lib="IC" part="4558" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96AC</tstamp>
+    </comp>
+    <comp ref="TP15">
+      <value>ST-2-1</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="ST-2-1" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96B2</tstamp>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96C5</tstamp>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96D1</tstamp>
+    </comp>
+    <comp ref="R55">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96EF</tstamp>
+    </comp>
+    <comp ref="R59">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96F5</tstamp>
+    </comp>
+    <comp ref="R51">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE96FB</tstamp>
+    </comp>
+    <comp ref="TP11">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9712</tstamp>
+    </comp>
+    <comp ref="R56">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9720</tstamp>
+    </comp>
+    <comp ref="R60">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9726</tstamp>
+    </comp>
+    <comp ref="R52">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE972C</tstamp>
+    </comp>
+    <comp ref="TP12">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9743</tstamp>
+    </comp>
+    <comp ref="R67">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9750</tstamp>
+    </comp>
+    <comp ref="R71">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9756</tstamp>
+    </comp>
+    <comp ref="R63">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE975C</tstamp>
+    </comp>
+    <comp ref="IC4">
+      <value>OP2177ARZ</value>
+      <footprint>footprint:SOIC-8</footprint>
+      <libsource lib="IC" part="4558" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE978B</tstamp>
+    </comp>
+    <comp ref="C23">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9797</tstamp>
+    </comp>
+    <comp ref="C24">
+      <value>0.1uF</value>
+      <footprint>footprint:C_0603</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97A3</tstamp>
+    </comp>
+    <comp ref="R57">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97C1</tstamp>
+    </comp>
+    <comp ref="R61">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97C7</tstamp>
+    </comp>
+    <comp ref="R53">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97CD</tstamp>
+    </comp>
+    <comp ref="TP13">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97E4</tstamp>
+    </comp>
+    <comp ref="R58">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97F2</tstamp>
+    </comp>
+    <comp ref="R62">
+      <value>0</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97F8</tstamp>
+    </comp>
+    <comp ref="R54">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE97FE</tstamp>
+    </comp>
+    <comp ref="TP14">
+      <value>LC-2-G</value>
+      <footprint>footprint:tp_LC-2-G</footprint>
+      <libsource lib="tab_check_terminal" part="LC-2-G" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9815</tstamp>
+    </comp>
+    <comp ref="C16">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9860</tstamp>
+    </comp>
+    <comp ref="R47">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9866</tstamp>
+    </comp>
+    <comp ref="R48">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9882</tstamp>
+    </comp>
+    <comp ref="R49">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9888</tstamp>
+    </comp>
+    <comp ref="R50">
+      <value>1.6K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE988E</tstamp>
+    </comp>
+    <comp ref="C17">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE9894</tstamp>
+    </comp>
+    <comp ref="C18">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE989A</tstamp>
+    </comp>
+    <comp ref="C19">
+      <value>1000pF</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="capacitor" part="C_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98A0</tstamp>
+    </comp>
+    <comp ref="R64">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98A6</tstamp>
+    </comp>
+    <comp ref="R65">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98AC</tstamp>
+    </comp>
+    <comp ref="R66">
+      <value>2K</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98B2</tstamp>
+    </comp>
+    <comp ref="R68">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98B8</tstamp>
+    </comp>
+    <comp ref="R69">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98BE</tstamp>
+    </comp>
+    <comp ref="R70">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98C4</tstamp>
+    </comp>
+    <comp ref="R72">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98CA</tstamp>
+    </comp>
+    <comp ref="R73">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98D0</tstamp>
+    </comp>
+    <comp ref="R74">
+      <value>N.M.</value>
+      <footprint>footprint:C_0805</footprint>
+      <libsource lib="register" part="R" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CE98D6</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62CFF62C</tstamp>
+    </comp>
+    <comp ref="C15">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62D0103E</tstamp>
+    </comp>
+    <comp ref="C20">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62D6E5F3</tstamp>
+    </comp>
+    <comp ref="C25">
+      <value>10uF/50V</value>
+      <footprint>footprint:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/BUFFER1/" tstamps="/62C3B256/"/>
+      <tstamp>62D6E5F9</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="IC" part="LM358">
+      <aliases>
+        <alias>LMC6062</alias>
+        <alias>LMC6082</alias>
+        <alias>LM358N</alias>
+        <alias>TL072</alias>
+        <alias>TL082</alias>
+        <alias>NE5532</alias>
+        <alias>4558</alias>
+        <alias>LMV358</alias>
+        <alias>TS912</alias>
+        <alias>TLC272</alias>
+        <alias>MCP602</alias>
+      </aliases>
+      <footprints>
+        <fp>SOIC*Pitch1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+        <fp>TSSOP*Pitch0.65mm*</fp>
+        <fp>TO-99*</fp>
+        <fp>DSBGA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM358</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="output"/>
+        <pin num="2" name="-" type="input"/>
+        <pin num="3" name="+" type="input"/>
+        <pin num="4" name="V-" type="passive"/>
+        <pin num="5" name="+" type="input"/>
+        <pin num="6" name="-" type="input"/>
+        <pin num="7" name="~" type="output"/>
+        <pin num="8" name="V+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Inductor" part="L">
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="LED" part="LED">
+      <footprints>
+        <fp>LED-*</fp>
+        <fp>*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">LED</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="CP1_Small">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="C_Small">
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cn_b2b-xh-a" part="B2B-XH-A">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">B2B-XH-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cn_hif3fc-16pa-2" part="HIF3FC-16PA-2.54DSA">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">HIF3FC-16PA-2.54DSA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="connectors" part="4PIN">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">4PIN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode" part="Schottky">
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*SingleDiode</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">Schottky</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="emi_filter" part="Ferrite_Bead_Small">
+      <footprints>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+        <fp>*Ferrite*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">Ferrite_Bead_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power_unit" part="CC3-0512DF-E">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CC3-0512DF-E</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+VIN" type="passive"/>
+        <pin num="2" name="RC" type="input"/>
+        <pin num="3" name="-VIN" type="passive"/>
+        <pin num="4" name="-VOUT" type="passive"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="TRM" type="passive"/>
+        <pin num="7" name="+VOUT" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="power_unit" part="CCG3-12-15DF">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">CCG3-12-15DF</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+Vin" type="passive"/>
+        <pin num="2" name="RC" type="passive"/>
+        <pin num="3" name="-Vin" type="passive"/>
+        <pin num="4" name="-Vout" type="passive"/>
+        <pin num="5" name="COM" type="passive"/>
+        <pin num="6" name="+Vout" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="r_register" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="register" part="R">
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tab_check_terminal" part="LC-2-G">
+      <aliases>
+        <alias>ST-2-1</alias>
+      </aliases>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">LC-2-G</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tvs_z2018" part="Z2018">
+      <fields>
+        <field name="Reference">TVS</field>
+        <field name="Value">Z2018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="IC">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/IC.lib</uri>
+    </library>
+    <library logical="Inductor">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/Inductor.lib</uri>
+    </library>
+    <library logical="LED">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/LED.lib</uri>
+    </library>
+    <library logical="capacitor">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/capacitor.lib</uri>
+    </library>
+    <library logical="cn_b2b-xh-a">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/cn_b2b-xh-a.lib</uri>
+    </library>
+    <library logical="cn_hif3fc-16pa-2">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/cn_hif3fc-16pa-2.lib</uri>
+    </library>
+    <library logical="connectors">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/connectors.lib</uri>
+    </library>
+    <library logical="diode">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/diode.lib</uri>
+    </library>
+    <library logical="emi_filter">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/emi_filter.lib</uri>
+    </library>
+    <library logical="power_unit">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/power_unit.lib</uri>
+    </library>
+    <library logical="r_register">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/r_register.lib</uri>
+    </library>
+    <library logical="register">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/register.lib</uri>
+    </library>
+    <library logical="tab_check_terminal">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/tab_check_terminal.lib</uri>
+    </library>
+    <library logical="tvs_z2018">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/tvs_z2018.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="-15V">
+      <node ref="IC2" pin="4"/>
+      <node ref="LED2" pin="2"/>
+      <node ref="C15" pin="2"/>
+      <node ref="IC2" pin="4"/>
+      <node ref="L2" pin="1"/>
+      <node ref="C25" pin="2"/>
+      <node ref="IC4" pin="4"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="C12" pin="1"/>
+      <node ref="IC4" pin="4"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C22" pin="1"/>
+      <node ref="IC3" pin="4"/>
+      <node ref="C5" pin="2"/>
+      <node ref="TP5" pin="1"/>
+      <node ref="C24" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C14" pin="1"/>
+      <node ref="CN3" pin="4"/>
+    </net>
+    <net code="2" name="+15V">
+      <node ref="IC2" pin="8"/>
+      <node ref="C13" pin="1"/>
+      <node ref="C11" pin="1"/>
+      <node ref="IC2" pin="8"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="TP3" pin="1"/>
+      <node ref="IC1" pin="8"/>
+      <node ref="C21" pin="1"/>
+      <node ref="IC3" pin="8"/>
+      <node ref="C23" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="C20" pin="1"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="L1" pin="2"/>
+      <node ref="C10" pin="1"/>
+      <node ref="CN3" pin="1"/>
+      <node ref="IC4" pin="8"/>
+      <node ref="C4" pin="1"/>
+    </net>
+    <net code="3" name="GNDA">
+      <node ref="C14" pin="2"/>
+      <node ref="FL14" pin="1"/>
+      <node ref="R25" pin="2"/>
+      <node ref="R71" pin="2"/>
+      <node ref="R53" pin="2"/>
+      <node ref="TVS8" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="R2" pin="1"/>
+      <node ref="TVS7" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="R18" pin="1"/>
+      <node ref="TVS5" pin="2"/>
+      <node ref="TVS6" pin="2"/>
+      <node ref="R51" pin="2"/>
+      <node ref="R52" pin="2"/>
+      <node ref="FL16" pin="1"/>
+      <node ref="C13" pin="2"/>
+      <node ref="C18" pin="2"/>
+      <node ref="C25" pin="1"/>
+      <node ref="C20" pin="2"/>
+      <node ref="TVS4" pin="2"/>
+      <node ref="TVS3" pin="2"/>
+      <node ref="C24" pin="2"/>
+      <node ref="C23" pin="2"/>
+      <node ref="FL6" pin="1"/>
+      <node ref="FL8" pin="1"/>
+      <node ref="R73" pin="2"/>
+      <node ref="R72" pin="2"/>
+      <node ref="C19" pin="2"/>
+      <node ref="C16" pin="2"/>
+      <node ref="FL2" pin="1"/>
+      <node ref="FL4" pin="1"/>
+      <node ref="R43" pin="2"/>
+      <node ref="R54" pin="2"/>
+      <node ref="R6" pin="1"/>
+      <node ref="R7" pin="1"/>
+      <node ref="R8" pin="1"/>
+      <node ref="R9" pin="1"/>
+      <node ref="C15" pin="1"/>
+      <node ref="TVS1" pin="2"/>
+      <node ref="C17" pin="2"/>
+      <node ref="C10" pin="2"/>
+      <node ref="R74" pin="2"/>
+      <node ref="TVS2" pin="2"/>
+      <node ref="CN2" pin="6"/>
+      <node ref="CN2" pin="14"/>
+      <node ref="CN2" pin="12"/>
+      <node ref="CN2" pin="10"/>
+      <node ref="CN2" pin="8"/>
+      <node ref="CN2" pin="16"/>
+      <node ref="C22" pin="2"/>
+      <node ref="CN2" pin="4"/>
+      <node ref="CN2" pin="2"/>
+      <node ref="C21" pin="2"/>
+      <node ref="TP4" pin="1"/>
+      <node ref="C3" pin="2"/>
+      <node ref="R44" pin="2"/>
+      <node ref="R45" pin="2"/>
+      <node ref="R46" pin="2"/>
+      <node ref="C12" pin="2"/>
+      <node ref="R24" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="TP15" pin="1"/>
+      <node ref="C9" pin="2"/>
+      <node ref="U2" pin="5"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="U1" pin="5"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="1"/>
+      <node ref="CN3" pin="2"/>
+      <node ref="CN3" pin="3"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C5" pin="1"/>
+      <node ref="LED1" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="R26" pin="2"/>
+      <node ref="FL10" pin="1"/>
+      <node ref="R23" pin="2"/>
+      <node ref="TP10" pin="1"/>
+      <node ref="R12" pin="1"/>
+      <node ref="R13" pin="1"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="C11" pin="2"/>
+      <node ref="FL12" pin="1"/>
+    </net>
+    <net code="4" name="Net-(C2-Pad2)">
+      <node ref="U2" pin="4"/>
+      <node ref="D2" pin="1"/>
+      <node ref="L2" pin="2"/>
+      <node ref="U1" pin="4"/>
+      <node ref="U2" pin="6"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="5" name="Net-(C3-Pad1)">
+      <node ref="L1" pin="1"/>
+      <node ref="U1" pin="6"/>
+      <node ref="D1" pin="2"/>
+      <node ref="C3" pin="1"/>
+      <node ref="U2" pin="7"/>
+    </net>
+    <net code="6" name="/AOUT5">
+      <node ref="R67" pin="1"/>
+      <node ref="R63" pin="1"/>
+      <node ref="CN2" pin="9"/>
+      <node ref="TP11" pin="1"/>
+    </net>
+    <net code="7" name="/AOUT4">
+      <node ref="R42" pin="1"/>
+      <node ref="TP9" pin="1"/>
+      <node ref="CN2" pin="7"/>
+      <node ref="R38" pin="1"/>
+    </net>
+    <net code="8" name="/AOUT2">
+      <node ref="TP7" pin="1"/>
+      <node ref="R36" pin="1"/>
+      <node ref="R40" pin="1"/>
+      <node ref="CN2" pin="3"/>
+    </net>
+    <net code="9" name="/AIN2">
+      <node ref="FL3" pin="1"/>
+      <node ref="TVS2" pin="1"/>
+      <node ref="R20" pin="2"/>
+      <node ref="R4" pin="2"/>
+      <node ref="R5" pin="2"/>
+    </net>
+    <net code="10" name="/AIN8">
+      <node ref="TVS8" pin="1"/>
+      <node ref="FL15" pin="1"/>
+      <node ref="R50" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="R18" pin="2"/>
+    </net>
+    <net code="11" name="/AIN7">
+      <node ref="FL13" pin="1"/>
+      <node ref="R49" pin="2"/>
+      <node ref="R14" pin="2"/>
+      <node ref="R15" pin="2"/>
+      <node ref="TVS7" pin="1"/>
+    </net>
+    <net code="12" name="/AIN6">
+      <node ref="TVS6" pin="1"/>
+      <node ref="R13" pin="2"/>
+      <node ref="R12" pin="2"/>
+      <node ref="R48" pin="2"/>
+      <node ref="FL11" pin="1"/>
+    </net>
+    <net code="13" name="/AIN5">
+      <node ref="R47" pin="2"/>
+      <node ref="FL9" pin="1"/>
+      <node ref="R10" pin="2"/>
+      <node ref="R11" pin="2"/>
+      <node ref="TVS5" pin="1"/>
+    </net>
+    <net code="14" name="/AIN3">
+      <node ref="R21" pin="2"/>
+      <node ref="TVS3" pin="1"/>
+      <node ref="R6" pin="2"/>
+      <node ref="FL5" pin="1"/>
+      <node ref="R7" pin="2"/>
+    </net>
+    <net code="15" name="/AIN4">
+      <node ref="R8" pin="2"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R22" pin="2"/>
+      <node ref="TVS4" pin="1"/>
+      <node ref="FL7" pin="1"/>
+    </net>
+    <net code="16" name="/AIN1">
+      <node ref="R19" pin="2"/>
+      <node ref="R3" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="TVS1" pin="1"/>
+      <node ref="FL1" pin="1"/>
+    </net>
+    <net code="17" name="Net-(LED2-Pad1)">
+      <node ref="LED2" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(LED1-Pad1)">
+      <node ref="LED1" pin="1"/>
+      <node ref="R17" pin="2"/>
+    </net>
+    <net code="19" name="GND">
+      <node ref="CN1" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="U2" pin="2"/>
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="2"/>
+      <node ref="TP2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="20" name="+5V">
+      <node ref="C1" pin="1"/>
+      <node ref="TP1" pin="1"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="U1" pin="1"/>
+      <node ref="U2" pin="1"/>
+    </net>
+    <net code="21" name="/AOUT3">
+      <node ref="CN2" pin="5"/>
+      <node ref="R37" pin="1"/>
+      <node ref="R41" pin="1"/>
+      <node ref="TP8" pin="1"/>
+    </net>
+    <net code="22" name="/AOUT1">
+      <node ref="R39" pin="1"/>
+      <node ref="R35" pin="1"/>
+      <node ref="CN2" pin="1"/>
+      <node ref="TP6" pin="1"/>
+    </net>
+    <net code="23" name="/AOUT6">
+      <node ref="R64" pin="1"/>
+      <node ref="R68" pin="1"/>
+      <node ref="TP12" pin="1"/>
+      <node ref="CN2" pin="11"/>
+    </net>
+    <net code="24" name="/AOUT8">
+      <node ref="CN2" pin="15"/>
+      <node ref="R66" pin="1"/>
+      <node ref="TP14" pin="1"/>
+      <node ref="R70" pin="1"/>
+    </net>
+    <net code="25" name="/AOUT7">
+      <node ref="CN2" pin="13"/>
+      <node ref="TP13" pin="1"/>
+      <node ref="R65" pin="1"/>
+      <node ref="R69" pin="1"/>
+    </net>
+    <net code="26" name="Net-(CN6-Pad2)">
+      <node ref="FL10" pin="2"/>
+      <node ref="CN6" pin="2"/>
+    </net>
+    <net code="27" name="Net-(CN6-Pad1)">
+      <node ref="FL9" pin="2"/>
+      <node ref="CN6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(CN6-Pad4)">
+      <node ref="FL12" pin="2"/>
+      <node ref="CN6" pin="4"/>
+    </net>
+    <net code="29" name="Net-(CN6-Pad3)">
+      <node ref="FL11" pin="2"/>
+      <node ref="CN6" pin="3"/>
+    </net>
+    <net code="30" name="Net-(CN7-Pad2)">
+      <node ref="FL14" pin="2"/>
+      <node ref="CN7" pin="2"/>
+    </net>
+    <net code="31" name="Net-(CN7-Pad3)">
+      <node ref="FL15" pin="2"/>
+      <node ref="CN7" pin="3"/>
+    </net>
+    <net code="32" name="Net-(CN7-Pad1)">
+      <node ref="FL13" pin="2"/>
+      <node ref="CN7" pin="1"/>
+    </net>
+    <net code="33" name="Net-(CN7-Pad4)">
+      <node ref="FL16" pin="2"/>
+      <node ref="CN7" pin="4"/>
+    </net>
+    <net code="34" name="Net-(CN4-Pad2)">
+      <node ref="CN4" pin="2"/>
+      <node ref="FL2" pin="2"/>
+    </net>
+    <net code="35" name="Net-(CN4-Pad3)">
+      <node ref="CN4" pin="3"/>
+      <node ref="FL3" pin="2"/>
+    </net>
+    <net code="36" name="Net-(CN4-Pad1)">
+      <node ref="CN4" pin="1"/>
+      <node ref="FL1" pin="2"/>
+    </net>
+    <net code="37" name="Net-(CN4-Pad4)">
+      <node ref="FL4" pin="2"/>
+      <node ref="CN4" pin="4"/>
+    </net>
+    <net code="38" name="Net-(CN5-Pad1)">
+      <node ref="FL5" pin="2"/>
+      <node ref="CN5" pin="1"/>
+    </net>
+    <net code="39" name="Net-(CN5-Pad4)">
+      <node ref="FL8" pin="2"/>
+      <node ref="CN5" pin="4"/>
+    </net>
+    <net code="40" name="Net-(CN5-Pad3)">
+      <node ref="FL7" pin="2"/>
+      <node ref="CN5" pin="3"/>
+    </net>
+    <net code="41" name="Net-(CN5-Pad2)">
+      <node ref="CN5" pin="2"/>
+      <node ref="FL6" pin="2"/>
+    </net>
+    <net code="42" name="Net-(R58-Pad1)">
+      <node ref="R62" pin="2"/>
+      <node ref="R58" pin="1"/>
+    </net>
+    <net code="43" name="Net-(IC4-Pad6)">
+      <node ref="IC4" pin="6"/>
+      <node ref="R54" pin="1"/>
+      <node ref="R58" pin="2"/>
+    </net>
+    <net code="44" name="Net-(R57-Pad1)">
+      <node ref="R57" pin="1"/>
+      <node ref="R61" pin="2"/>
+    </net>
+    <net code="45" name="Net-(IC4-Pad2)">
+      <node ref="R57" pin="2"/>
+      <node ref="R53" pin="1"/>
+      <node ref="IC4" pin="2"/>
+    </net>
+    <net code="46" name="Net-(IC3-Pad7)">
+      <node ref="R60" pin="1"/>
+      <node ref="R64" pin="2"/>
+      <node ref="IC3" pin="7"/>
+    </net>
+    <net code="47" name="Net-(R56-Pad1)">
+      <node ref="R60" pin="2"/>
+      <node ref="R56" pin="1"/>
+    </net>
+    <net code="48" name="Net-(IC3-Pad6)">
+      <node ref="R52" pin="1"/>
+      <node ref="R56" pin="2"/>
+      <node ref="IC3" pin="6"/>
+    </net>
+    <net code="49" name="Net-(IC3-Pad1)">
+      <node ref="IC3" pin="1"/>
+      <node ref="R59" pin="1"/>
+      <node ref="R63" pin="2"/>
+    </net>
+    <net code="50" name="Net-(IC3-Pad2)">
+      <node ref="R55" pin="2"/>
+      <node ref="IC3" pin="2"/>
+      <node ref="R51" pin="1"/>
+    </net>
+    <net code="51" name="Net-(R55-Pad1)">
+      <node ref="R59" pin="2"/>
+      <node ref="R55" pin="1"/>
+    </net>
+    <net code="52" name="Net-(R68-Pad2)">
+      <node ref="R68" pin="2"/>
+      <node ref="R72" pin="1"/>
+    </net>
+    <net code="53" name="Net-(R67-Pad2)">
+      <node ref="R67" pin="2"/>
+      <node ref="R71" pin="1"/>
+    </net>
+    <net code="54" name="Net-(IC4-Pad1)">
+      <node ref="R65" pin="2"/>
+      <node ref="IC4" pin="1"/>
+      <node ref="R61" pin="1"/>
+    </net>
+    <net code="55" name="Net-(IC4-Pad7)">
+      <node ref="R62" pin="1"/>
+      <node ref="IC4" pin="7"/>
+      <node ref="R66" pin="2"/>
+    </net>
+    <net code="56" name="Net-(R69-Pad2)">
+      <node ref="R69" pin="2"/>
+      <node ref="R73" pin="1"/>
+    </net>
+    <net code="57" name="Net-(R70-Pad2)">
+      <node ref="R74" pin="1"/>
+      <node ref="R70" pin="2"/>
+    </net>
+    <net code="58" name="Net-(C19-Pad1)">
+      <node ref="IC4" pin="5"/>
+      <node ref="C19" pin="1"/>
+      <node ref="R50" pin="1"/>
+    </net>
+    <net code="59" name="Net-(C18-Pad1)">
+      <node ref="C18" pin="1"/>
+      <node ref="IC4" pin="3"/>
+      <node ref="R49" pin="1"/>
+    </net>
+    <net code="60" name="Net-(C17-Pad1)">
+      <node ref="IC3" pin="5"/>
+      <node ref="C17" pin="1"/>
+      <node ref="R48" pin="1"/>
+    </net>
+    <net code="61" name="Net-(C16-Pad1)">
+      <node ref="R47" pin="1"/>
+      <node ref="C16" pin="1"/>
+      <node ref="IC3" pin="3"/>
+    </net>
+    <net code="62" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2"/>
+      <node ref="R43" pin="1"/>
+    </net>
+    <net code="63" name="Net-(R40-Pad2)">
+      <node ref="R44" pin="1"/>
+      <node ref="R40" pin="2"/>
+    </net>
+    <net code="64" name="Net-(IC2-Pad2)">
+      <node ref="IC2" pin="2"/>
+      <node ref="R25" pin="1"/>
+      <node ref="R29" pin="2"/>
+    </net>
+    <net code="65" name="Net-(R29-Pad1)">
+      <node ref="R29" pin="1"/>
+      <node ref="R33" pin="2"/>
+    </net>
+    <net code="66" name="Net-(IC1-Pad2)">
+      <node ref="IC1" pin="2"/>
+      <node ref="R27" pin="2"/>
+      <node ref="R23" pin="1"/>
+    </net>
+    <net code="67" name="Net-(IC1-Pad1)">
+      <node ref="R35" pin="2"/>
+      <node ref="IC1" pin="1"/>
+      <node ref="R31" pin="1"/>
+    </net>
+    <net code="68" name="Net-(R27-Pad1)">
+      <node ref="R31" pin="2"/>
+      <node ref="R27" pin="1"/>
+    </net>
+    <net code="69" name="Net-(C6-Pad1)">
+      <node ref="R19" pin="1"/>
+      <node ref="C6" pin="1"/>
+      <node ref="IC1" pin="3"/>
+    </net>
+    <net code="70" name="Net-(R28-Pad1)">
+      <node ref="R28" pin="1"/>
+      <node ref="R32" pin="2"/>
+    </net>
+    <net code="71" name="Net-(IC1-Pad7)">
+      <node ref="IC1" pin="7"/>
+      <node ref="R36" pin="2"/>
+      <node ref="R32" pin="1"/>
+    </net>
+    <net code="72" name="Net-(IC1-Pad6)">
+      <node ref="R28" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="IC1" pin="6"/>
+    </net>
+    <net code="73" name="Net-(C9-Pad1)">
+      <node ref="IC2" pin="5"/>
+      <node ref="R22" pin="1"/>
+      <node ref="C9" pin="1"/>
+    </net>
+    <net code="74" name="Net-(C8-Pad1)">
+      <node ref="R21" pin="1"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="C8" pin="1"/>
+    </net>
+    <net code="75" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="76" name="Net-(IC2-Pad1)">
+      <node ref="R37" pin="2"/>
+      <node ref="R33" pin="1"/>
+      <node ref="IC2" pin="1"/>
+    </net>
+    <net code="77" name="Net-(IC2-Pad7)">
+      <node ref="R38" pin="2"/>
+      <node ref="IC2" pin="7"/>
+      <node ref="R34" pin="1"/>
+    </net>
+    <net code="78" name="Net-(IC2-Pad6)">
+      <node ref="R30" pin="2"/>
+      <node ref="IC2" pin="6"/>
+      <node ref="R26" pin="1"/>
+    </net>
+    <net code="79" name="Net-(R30-Pad1)">
+      <node ref="R30" pin="1"/>
+      <node ref="R34" pin="2"/>
+    </net>
+    <net code="80" name="Net-(R42-Pad2)">
+      <node ref="R46" pin="1"/>
+      <node ref="R42" pin="2"/>
+    </net>
+    <net code="81" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2"/>
+      <node ref="R45" pin="1"/>
+    </net>
+  </nets>
+</export>

@@ -1,0 +1,12 @@
+(sym_lib_table
+  (lib (name b4b-xh-a_2kiri)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/b4b-xh-a_2kiri.lib)(options "")(descr ""))
+  (lib (name f_fuse_small)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/f_fuse_small.lib)(options "")(descr ""))
+  (lib (name tvs_z2018)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/tvs_z2018.lib)(options "")(descr ""))
+  (lib (name r_register)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/r_register.lib)(options "")(descr ""))
+  (lib (name d_zener)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/d_zener.lib)(options "")(descr ""))
+  (lib (name d_diode)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/d_diode.lib)(options "")(descr ""))
+  (lib (name u_SU10V-10010)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/u_SU10V-10010.lib)(options "")(descr ""))
+  (lib (name pc_6n139)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/pc_6n139.lib)(options "")(descr ""))
+  (lib (name cn_hif3fc-16pa-2)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/cn_hif3fc-16pa-2.lib)(options "")(descr ""))
+  (lib (name cn_b2b-xh-a)(type Legacy)(uri D:/Dropbox/projects/kicad/myLibrary/cn_b2b-xh-a.lib)(options "")(descr ""))
+)

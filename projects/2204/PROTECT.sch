@@ -1,0 +1,1084 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 3
+Title "2204 UNIT ANALOG PROTECT BOARD"
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L connectors:4PIN CN4
+U 1 1 62B9EA46
+P 3900 1150
+F 0 "CN4" H 3950 1400 50  0000 C CNN
+F 1 "S4B-XH-A" H 3800 900 50  0000 C CNN
+F 2 "footprint:cn_S4B-XH-A" H 3900 1150 60  0001 C CNN
+F 3 "" H 3900 1150 60  0001 C CNN
+	1    3900 1150
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BA0ADF
+P 6700 1900
+AR Path="/62BA0ADF" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BA0ADF" Ref="#PWR027"  Part="1" 
+F 0 "#PWR027" H 6700 1650 50  0001 C CNN
+F 1 "GNDA" H 6705 1727 50  0000 C CNN
+F 2 "" H 6700 1900 50  0001 C CNN
+F 3 "" H 6700 1900 50  0001 C CNN
+	1    6700 1900
+	1    0    0    -1  
+$EndComp
+Text Notes 3500 1000 0    50   ~ 0
+AIN1
+Text Notes 3500 1100 0    50   ~ 0
+AGND
+Text Notes 3500 1200 0    50   ~ 0
+AIN2
+$Comp
+L emi_filter:Ferrite_Bead_Small FL1
+U 1 1 62BA26CB
+P 4550 1000
+F 0 "FL1" V 4450 950 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4450 1450 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4480 1000 50  0001 C CNN
+F 3 "" H 4550 1000 50  0001 C CNN
+	1    4550 1000
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL2
+U 1 1 62BA35AA
+P 4550 1300
+F 0 "FL2" V 4450 1250 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4450 1750 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4480 1300 50  0001 C CNN
+F 3 "" H 4550 1300 50  0001 C CNN
+	1    4550 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL3
+U 1 1 62BA4A8A
+P 4550 1550
+F 0 "FL3" V 4450 1500 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4450 2000 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4480 1550 50  0001 C CNN
+F 3 "" H 4550 1550 50  0001 C CNN
+	1    4550 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL4
+U 1 1 62BA4A90
+P 4550 1850
+F 0 "FL4" V 4450 1800 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4450 2300 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4480 1850 50  0001 C CNN
+F 3 "" H 4550 1850 50  0001 C CNN
+	1    4550 1850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4450 1000 4200 1000
+Wire Wire Line
+	4200 1100 4400 1100
+Wire Wire Line
+	4400 1100 4400 1300
+Wire Wire Line
+	4400 1300 4450 1300
+Wire Wire Line
+	4450 1550 4350 1550
+Wire Wire Line
+	4350 1550 4350 1200
+Wire Wire Line
+	4350 1200 4200 1200
+Wire Wire Line
+	4450 1850 4300 1850
+Wire Wire Line
+	4300 1850 4300 1300
+Wire Wire Line
+	4300 1300 4200 1300
+Text Notes 3500 1300 0    50   ~ 0
+AGND
+$Comp
+L tvs_z2018:Z2018 TVS1
+U 1 1 62BA8D05
+P 5750 1100
+F 0 "TVS1" H 5750 1250 50  0000 C CNN
+F 1 "ZS1018" H 5750 1000 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5750 1100 60  0001 C CNN
+F 3 "" H 5750 1100 60  0001 C CNN
+	1    5750 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1100 5450 1100
+Wire Wire Line
+	5450 1100 5450 1000
+Wire Wire Line
+	5450 1000 4650 1000
+$Comp
+L tvs_z2018:Z2018 TVS2
+U 1 1 62BAA00D
+P 5750 1650
+F 0 "TVS2" H 5750 1800 50  0000 C CNN
+F 1 "ZS1018" H 5750 1550 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5750 1650 60  0001 C CNN
+F 3 "" H 5750 1650 60  0001 C CNN
+	1    5750 1650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1650 5450 1650
+Wire Wire Line
+	5450 1650 5450 1550
+Wire Wire Line
+	5450 1550 4650 1550
+Wire Wire Line
+	6050 1650 5950 1650
+Wire Wire Line
+	6050 1100 5950 1100
+Wire Wire Line
+	4650 1850 6050 1850
+Wire Wire Line
+	6050 1850 6050 1650
+Wire Wire Line
+	4650 1300 6050 1300
+Wire Wire Line
+	6050 1300 6050 1100
+Wire Wire Line
+	5450 1000 6150 1000
+Connection ~ 5450 1000
+Wire Wire Line
+	5450 1550 6150 1550
+Connection ~ 5450 1550
+Text Label 6850 1000 0    50   ~ 0
+AIN1
+Text Label 6850 1550 0    50   ~ 0
+AIN2
+Text HLabel 7100 1000 2    50   Output ~ 0
+AIN1
+Text HLabel 7100 1550 2    50   Output ~ 0
+AIN2
+Text Notes 3500 2200 0    50   ~ 0
+AIN3
+Text Notes 3500 2300 0    50   ~ 0
+AGND
+Text Notes 3500 2400 0    50   ~ 0
+AIN4
+Text Notes 3500 2500 0    50   ~ 0
+AGND
+Text HLabel 7150 2200 2    50   Output ~ 0
+AIN3
+Text HLabel 7150 2750 2    50   Output ~ 0
+AIN4
+Text Notes 3550 3400 0    50   ~ 0
+AIN5
+Text Notes 3550 3500 0    50   ~ 0
+AGND
+Text Notes 3550 3600 0    50   ~ 0
+AIN6
+Text Notes 3550 3700 0    50   ~ 0
+AGND
+Text HLabel 7150 3400 2    50   Output ~ 0
+AIN5
+Text HLabel 7150 3950 2    50   Output ~ 0
+AIN6
+Text Notes 3550 4600 0    50   ~ 0
+AIN7
+Text Notes 3550 4700 0    50   ~ 0
+AGND
+Text Notes 3550 4800 0    50   ~ 0
+AIN8
+Text Notes 3550 4900 0    50   ~ 0
+AGND
+Text HLabel 7150 4600 2    50   Output ~ 0
+AIN7
+Text HLabel 7150 5150 2    50   Output ~ 0
+AIN8
+$Comp
+L register:R R2
+U 1 1 62BC489B
+P 6450 1100
+F 0 "R2" V 6400 850 50  0000 L CNN
+F 1 "N.M." V 6450 1000 50  0000 L CNN
+F 2 "footprint:C_3216" V 6380 1100 50  0001 C CNN
+F 3 "" H 6450 1100 50  0001 C CNN
+	1    6450 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R3
+U 1 1 62BC6A52
+P 6450 1200
+F 0 "R3" V 6400 950 50  0000 L CNN
+F 1 "N.M." V 6450 1100 50  0000 L CNN
+F 2 "footprint:C_3216" V 6380 1200 50  0001 C CNN
+F 3 "" H 6450 1200 50  0001 C CNN
+	1    6450 1200
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 1100 6150 1100
+Wire Wire Line
+	6150 1100 6150 1000
+Connection ~ 6150 1000
+Wire Wire Line
+	6300 1200 6150 1200
+Wire Wire Line
+	6150 1200 6150 1100
+Connection ~ 6150 1100
+$Comp
+L register:R R4
+U 1 1 62BD2191
+P 6450 1650
+F 0 "R4" V 6400 1400 50  0000 L CNN
+F 1 "N.M." V 6450 1550 50  0000 L CNN
+F 2 "footprint:C_3216" V 6380 1650 50  0001 C CNN
+F 3 "" H 6450 1650 50  0001 C CNN
+	1    6450 1650
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R5
+U 1 1 62BD267D
+P 6450 1750
+F 0 "R5" V 6400 1500 50  0000 L CNN
+F 1 "N.M." V 6450 1650 50  0000 L CNN
+F 2 "footprint:C_3216" V 6380 1750 50  0001 C CNN
+F 3 "" H 6450 1750 50  0001 C CNN
+	1    6450 1750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6300 1650 6150 1650
+Wire Wire Line
+	6150 1650 6150 1550
+Connection ~ 6150 1550
+Wire Wire Line
+	6300 1750 6150 1750
+Wire Wire Line
+	6150 1750 6150 1650
+Connection ~ 6150 1650
+Wire Wire Line
+	6600 1750 6700 1750
+Wire Wire Line
+	6700 1750 6700 1850
+Wire Wire Line
+	6600 1650 6700 1650
+Wire Wire Line
+	6700 1650 6700 1750
+Connection ~ 6700 1750
+Wire Wire Line
+	6050 1850 6700 1850
+Connection ~ 6050 1850
+Connection ~ 6700 1850
+Wire Wire Line
+	6700 1850 6700 1900
+Wire Wire Line
+	6050 1300 6700 1300
+Wire Wire Line
+	6700 1300 6700 1350
+Connection ~ 6050 1300
+Wire Wire Line
+	6700 1300 6700 1200
+Wire Wire Line
+	6700 1200 6600 1200
+Connection ~ 6700 1300
+Wire Wire Line
+	6600 1100 6700 1100
+Wire Wire Line
+	6700 1100 6700 1200
+Connection ~ 6700 1200
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BDE4EC
+P 6700 1350
+AR Path="/62BDE4EC" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BDE4EC" Ref="#PWR026"  Part="1" 
+F 0 "#PWR026" H 6700 1100 50  0001 C CNN
+F 1 "GNDA" H 6705 1177 50  0000 C CNN
+F 2 "" H 6700 1350 50  0001 C CNN
+F 3 "" H 6700 1350 50  0001 C CNN
+	1    6700 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 1000 7100 1000
+Wire Wire Line
+	6150 1550 7100 1550
+$Comp
+L connectors:4PIN CN5
+U 1 1 62BEA8EE
+P 3950 2350
+F 0 "CN5" H 4000 2600 50  0000 C CNN
+F 1 "S4B-XH-A" H 3850 2100 50  0000 C CNN
+F 2 "footprint:cn_S4B-XH-A" H 3950 2350 60  0001 C CNN
+F 3 "" H 3950 2350 60  0001 C CNN
+	1    3950 2350
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BEA8F4
+P 6750 3100
+AR Path="/62BEA8F4" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BEA8F4" Ref="#PWR029"  Part="1" 
+F 0 "#PWR029" H 6750 2850 50  0001 C CNN
+F 1 "GNDA" H 6755 2927 50  0000 C CNN
+F 2 "" H 6750 3100 50  0001 C CNN
+F 3 "" H 6750 3100 50  0001 C CNN
+	1    6750 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL5
+U 1 1 62BEA8FA
+P 4600 2200
+F 0 "FL5" V 4500 2150 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 2650 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 2200 50  0001 C CNN
+F 3 "" H 4600 2200 50  0001 C CNN
+	1    4600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL6
+U 1 1 62BEA900
+P 4600 2500
+F 0 "FL6" V 4500 2450 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 2950 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 2500 50  0001 C CNN
+F 3 "" H 4600 2500 50  0001 C CNN
+	1    4600 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL7
+U 1 1 62BEA906
+P 4600 2750
+F 0 "FL7" V 4500 2700 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 3200 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 2750 50  0001 C CNN
+F 3 "" H 4600 2750 50  0001 C CNN
+	1    4600 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL8
+U 1 1 62BEA90C
+P 4600 3050
+F 0 "FL8" V 4500 3000 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 3500 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 3050 50  0001 C CNN
+F 3 "" H 4600 3050 50  0001 C CNN
+	1    4600 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 2200 4250 2200
+Wire Wire Line
+	4250 2300 4450 2300
+Wire Wire Line
+	4450 2300 4450 2500
+Wire Wire Line
+	4450 2500 4500 2500
+Wire Wire Line
+	4500 2750 4400 2750
+Wire Wire Line
+	4400 2750 4400 2400
+Wire Wire Line
+	4400 2400 4250 2400
+Wire Wire Line
+	4500 3050 4350 3050
+Wire Wire Line
+	4350 3050 4350 2500
+Wire Wire Line
+	4350 2500 4250 2500
+$Comp
+L tvs_z2018:Z2018 TVS3
+U 1 1 62BEA91C
+P 5800 2300
+F 0 "TVS3" H 5800 2450 50  0000 C CNN
+F 1 "ZS1018" H 5800 2200 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 2300 60  0001 C CNN
+F 3 "" H 5800 2300 60  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2300 5500 2300
+Wire Wire Line
+	5500 2300 5500 2200
+Wire Wire Line
+	5500 2200 4700 2200
+$Comp
+L tvs_z2018:Z2018 TVS4
+U 1 1 62BEA925
+P 5800 2850
+F 0 "TVS4" H 5800 3000 50  0000 C CNN
+F 1 "ZS1018" H 5800 2750 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 2850 60  0001 C CNN
+F 3 "" H 5800 2850 60  0001 C CNN
+	1    5800 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 2850 5500 2850
+Wire Wire Line
+	5500 2850 5500 2750
+Wire Wire Line
+	5500 2750 4700 2750
+Wire Wire Line
+	6100 2850 6000 2850
+Wire Wire Line
+	6100 2300 6000 2300
+Wire Wire Line
+	4700 3050 6100 3050
+Wire Wire Line
+	6100 3050 6100 2850
+Wire Wire Line
+	4700 2500 6100 2500
+Wire Wire Line
+	6100 2500 6100 2300
+Wire Wire Line
+	5500 2200 6200 2200
+Connection ~ 5500 2200
+Wire Wire Line
+	5500 2750 6200 2750
+Connection ~ 5500 2750
+Text Label 6900 2200 0    50   ~ 0
+AIN3
+Text Label 6900 2750 0    50   ~ 0
+AIN4
+$Comp
+L register:R R6
+U 1 1 62BEA93A
+P 6500 2300
+F 0 "R6" V 6450 2050 50  0000 L CNN
+F 1 "N.M." V 6500 2200 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 2300 50  0001 C CNN
+F 3 "" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R7
+U 1 1 62BEA940
+P 6500 2400
+F 0 "R7" V 6450 2150 50  0000 L CNN
+F 1 "N.M." V 6500 2300 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 2400 50  0001 C CNN
+F 3 "" H 6500 2400 50  0001 C CNN
+	1    6500 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2300 6200 2300
+Wire Wire Line
+	6200 2300 6200 2200
+Connection ~ 6200 2200
+Wire Wire Line
+	6350 2400 6200 2400
+Wire Wire Line
+	6200 2400 6200 2300
+Connection ~ 6200 2300
+$Comp
+L register:R R8
+U 1 1 62BEA94C
+P 6500 2850
+F 0 "R8" V 6450 2600 50  0000 L CNN
+F 1 "N.M." V 6500 2750 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 2850 50  0001 C CNN
+F 3 "" H 6500 2850 50  0001 C CNN
+	1    6500 2850
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R9
+U 1 1 62BEA952
+P 6500 2950
+F 0 "R9" V 6450 2700 50  0000 L CNN
+F 1 "N.M." V 6500 2850 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 2850 6200 2850
+Wire Wire Line
+	6200 2850 6200 2750
+Connection ~ 6200 2750
+Wire Wire Line
+	6350 2950 6200 2950
+Wire Wire Line
+	6200 2950 6200 2850
+Connection ~ 6200 2850
+Wire Wire Line
+	6650 2950 6750 2950
+Wire Wire Line
+	6750 2950 6750 3050
+Wire Wire Line
+	6650 2850 6750 2850
+Wire Wire Line
+	6750 2850 6750 2950
+Connection ~ 6750 2950
+Wire Wire Line
+	6100 3050 6750 3050
+Connection ~ 6100 3050
+Connection ~ 6750 3050
+Wire Wire Line
+	6750 3050 6750 3100
+Wire Wire Line
+	6100 2500 6750 2500
+Wire Wire Line
+	6750 2500 6750 2550
+Connection ~ 6100 2500
+Wire Wire Line
+	6750 2500 6750 2400
+Wire Wire Line
+	6750 2400 6650 2400
+Connection ~ 6750 2500
+Wire Wire Line
+	6650 2300 6750 2300
+Wire Wire Line
+	6750 2300 6750 2400
+Connection ~ 6750 2400
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BEA970
+P 6750 2550
+AR Path="/62BEA970" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BEA970" Ref="#PWR028"  Part="1" 
+F 0 "#PWR028" H 6750 2300 50  0001 C CNN
+F 1 "GNDA" H 6755 2377 50  0000 C CNN
+F 2 "" H 6750 2550 50  0001 C CNN
+F 3 "" H 6750 2550 50  0001 C CNN
+	1    6750 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 2200 7150 2200
+Wire Wire Line
+	6200 2750 7150 2750
+$Comp
+L connectors:4PIN CN6
+U 1 1 62BF15AB
+P 3950 3550
+F 0 "CN6" H 4000 3800 50  0000 C CNN
+F 1 "S4B-XH-A" H 3850 3300 50  0000 C CNN
+F 2 "footprint:cn_S4B-XH-A" H 3950 3550 60  0001 C CNN
+F 3 "" H 3950 3550 60  0001 C CNN
+	1    3950 3550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BF15B1
+P 6750 4300
+AR Path="/62BF15B1" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BF15B1" Ref="#PWR031"  Part="1" 
+F 0 "#PWR031" H 6750 4050 50  0001 C CNN
+F 1 "GNDA" H 6755 4127 50  0000 C CNN
+F 2 "" H 6750 4300 50  0001 C CNN
+F 3 "" H 6750 4300 50  0001 C CNN
+	1    6750 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL9
+U 1 1 62BF15B7
+P 4600 3400
+F 0 "FL9" V 4500 3350 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 3850 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 3400 50  0001 C CNN
+F 3 "" H 4600 3400 50  0001 C CNN
+	1    4600 3400
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL10
+U 1 1 62BF15BD
+P 4600 3700
+F 0 "FL10" V 4500 3650 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 4150 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 3700 50  0001 C CNN
+F 3 "" H 4600 3700 50  0001 C CNN
+	1    4600 3700
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL11
+U 1 1 62BF15C3
+P 4600 3950
+F 0 "FL11" V 4500 3900 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 4400 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 3950 50  0001 C CNN
+F 3 "" H 4600 3950 50  0001 C CNN
+	1    4600 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL12
+U 1 1 62BF15C9
+P 4600 4250
+F 0 "FL12" V 4500 4200 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 4700 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 4250 50  0001 C CNN
+F 3 "" H 4600 4250 50  0001 C CNN
+	1    4600 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 3400 4250 3400
+Wire Wire Line
+	4250 3500 4450 3500
+Wire Wire Line
+	4450 3500 4450 3700
+Wire Wire Line
+	4450 3700 4500 3700
+Wire Wire Line
+	4500 3950 4400 3950
+Wire Wire Line
+	4400 3950 4400 3600
+Wire Wire Line
+	4400 3600 4250 3600
+Wire Wire Line
+	4500 4250 4350 4250
+Wire Wire Line
+	4350 4250 4350 3700
+Wire Wire Line
+	4350 3700 4250 3700
+$Comp
+L tvs_z2018:Z2018 TVS5
+U 1 1 62BF15D9
+P 5800 3500
+F 0 "TVS5" H 5800 3650 50  0000 C CNN
+F 1 "ZS1018" H 5800 3400 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 3500 60  0001 C CNN
+F 3 "" H 5800 3500 60  0001 C CNN
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 3500 5500 3500
+Wire Wire Line
+	5500 3500 5500 3400
+Wire Wire Line
+	5500 3400 4700 3400
+$Comp
+L tvs_z2018:Z2018 TVS6
+U 1 1 62BF15E2
+P 5800 4050
+F 0 "TVS6" H 5800 4200 50  0000 C CNN
+F 1 "ZS1018" H 5800 3950 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 4050 60  0001 C CNN
+F 3 "" H 5800 4050 60  0001 C CNN
+	1    5800 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4050 5500 4050
+Wire Wire Line
+	5500 4050 5500 3950
+Wire Wire Line
+	5500 3950 4700 3950
+Wire Wire Line
+	6100 4050 6000 4050
+Wire Wire Line
+	6100 3500 6000 3500
+Wire Wire Line
+	4700 4250 6100 4250
+Wire Wire Line
+	6100 4250 6100 4050
+Wire Wire Line
+	4700 3700 6100 3700
+Wire Wire Line
+	6100 3700 6100 3500
+Wire Wire Line
+	5500 3400 6200 3400
+Connection ~ 5500 3400
+Wire Wire Line
+	5500 3950 6200 3950
+Connection ~ 5500 3950
+Text Label 6900 3400 0    50   ~ 0
+AIN5
+Text Label 6900 3950 0    50   ~ 0
+AIN6
+$Comp
+L register:R R10
+U 1 1 62BF15F7
+P 6500 3500
+F 0 "R10" V 6450 3250 50  0000 L CNN
+F 1 "N.M." V 6500 3400 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 3500 50  0001 C CNN
+F 3 "" H 6500 3500 50  0001 C CNN
+	1    6500 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R11
+U 1 1 62BF15FD
+P 6500 3600
+F 0 "R11" V 6450 3350 50  0000 L CNN
+F 1 "N.M." V 6500 3500 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 3600 50  0001 C CNN
+F 3 "" H 6500 3600 50  0001 C CNN
+	1    6500 3600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 3500 6200 3500
+Wire Wire Line
+	6200 3500 6200 3400
+Connection ~ 6200 3400
+Wire Wire Line
+	6350 3600 6200 3600
+Wire Wire Line
+	6200 3600 6200 3500
+Connection ~ 6200 3500
+$Comp
+L register:R R12
+U 1 1 62BF1609
+P 6500 4050
+F 0 "R12" V 6450 3800 50  0000 L CNN
+F 1 "N.M." V 6500 3950 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 4050 50  0001 C CNN
+F 3 "" H 6500 4050 50  0001 C CNN
+	1    6500 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R13
+U 1 1 62BF160F
+P 6500 4150
+F 0 "R13" V 6450 3900 50  0000 L CNN
+F 1 "N.M." V 6500 4050 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 4150 50  0001 C CNN
+F 3 "" H 6500 4150 50  0001 C CNN
+	1    6500 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4050 6200 4050
+Wire Wire Line
+	6200 4050 6200 3950
+Connection ~ 6200 3950
+Wire Wire Line
+	6350 4150 6200 4150
+Wire Wire Line
+	6200 4150 6200 4050
+Connection ~ 6200 4050
+Wire Wire Line
+	6650 4150 6750 4150
+Wire Wire Line
+	6750 4150 6750 4250
+Wire Wire Line
+	6650 4050 6750 4050
+Wire Wire Line
+	6750 4050 6750 4150
+Connection ~ 6750 4150
+Wire Wire Line
+	6100 4250 6750 4250
+Connection ~ 6100 4250
+Connection ~ 6750 4250
+Wire Wire Line
+	6750 4250 6750 4300
+Wire Wire Line
+	6100 3700 6750 3700
+Wire Wire Line
+	6750 3700 6750 3750
+Connection ~ 6100 3700
+Wire Wire Line
+	6750 3700 6750 3600
+Wire Wire Line
+	6750 3600 6650 3600
+Connection ~ 6750 3700
+Wire Wire Line
+	6650 3500 6750 3500
+Wire Wire Line
+	6750 3500 6750 3600
+Connection ~ 6750 3600
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BF162D
+P 6750 3750
+AR Path="/62BF162D" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BF162D" Ref="#PWR030"  Part="1" 
+F 0 "#PWR030" H 6750 3500 50  0001 C CNN
+F 1 "GNDA" H 6755 3577 50  0000 C CNN
+F 2 "" H 6750 3750 50  0001 C CNN
+F 3 "" H 6750 3750 50  0001 C CNN
+	1    6750 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3400 7150 3400
+Wire Wire Line
+	6200 3950 7150 3950
+$Comp
+L connectors:4PIN CN7
+U 1 1 62BFAF7E
+P 3950 4750
+F 0 "CN7" H 4000 5000 50  0000 C CNN
+F 1 "S4B-XH-A" H 3850 4500 50  0000 C CNN
+F 2 "footprint:cn_S4B-XH-A" H 3950 4750 60  0001 C CNN
+F 3 "" H 3950 4750 60  0001 C CNN
+	1    3950 4750
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BFAF84
+P 6750 5500
+AR Path="/62BFAF84" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BFAF84" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 6750 5250 50  0001 C CNN
+F 1 "GNDA" H 6755 5327 50  0000 C CNN
+F 2 "" H 6750 5500 50  0001 C CNN
+F 3 "" H 6750 5500 50  0001 C CNN
+	1    6750 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL13
+U 1 1 62BFAF8A
+P 4600 4600
+F 0 "FL13" V 4500 4550 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 5050 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 4600 50  0001 C CNN
+F 3 "" H 4600 4600 50  0001 C CNN
+	1    4600 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL14
+U 1 1 62BFAF90
+P 4600 4900
+F 0 "FL14" V 4500 4850 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 5350 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 4900 50  0001 C CNN
+F 3 "" H 4600 4900 50  0001 C CNN
+	1    4600 4900
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL15
+U 1 1 62BFAF96
+P 4600 5150
+F 0 "FL15" V 4500 5100 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 5600 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 5150 50  0001 C CNN
+F 3 "" H 4600 5150 50  0001 C CNN
+	1    4600 5150
+	0    1    1    0   
+$EndComp
+$Comp
+L emi_filter:Ferrite_Bead_Small FL16
+U 1 1 62BFAF9C
+P 4600 5450
+F 0 "FL16" V 4500 5400 50  0000 C CNN
+F 1 "ZBF503D-00(TA)-01" V 4500 5900 50  0000 C CNN
+F 2 "footprint:fl_ZBF503D-00" V 4530 5450 50  0001 C CNN
+F 3 "" H 4600 5450 50  0001 C CNN
+	1    4600 5450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4500 4600 4250 4600
+Wire Wire Line
+	4250 4700 4450 4700
+Wire Wire Line
+	4450 4700 4450 4900
+Wire Wire Line
+	4450 4900 4500 4900
+Wire Wire Line
+	4500 5150 4400 5150
+Wire Wire Line
+	4400 5150 4400 4800
+Wire Wire Line
+	4400 4800 4250 4800
+Wire Wire Line
+	4500 5450 4350 5450
+Wire Wire Line
+	4350 5450 4350 4900
+Wire Wire Line
+	4350 4900 4250 4900
+$Comp
+L tvs_z2018:Z2018 TVS7
+U 1 1 62BFAFAC
+P 5800 4700
+F 0 "TVS7" H 5800 4850 50  0000 C CNN
+F 1 "ZS1018" H 5800 4600 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 4700 60  0001 C CNN
+F 3 "" H 5800 4700 60  0001 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 4700 5500 4700
+Wire Wire Line
+	5500 4700 5500 4600
+Wire Wire Line
+	5500 4600 4700 4600
+$Comp
+L tvs_z2018:Z2018 TVS8
+U 1 1 62BFAFB5
+P 5800 5250
+F 0 "TVS8" H 5800 5400 50  0000 C CNN
+F 1 "ZS1018" H 5800 5150 50  0000 C CNN
+F 2 "footprint:d_ZS1018" H 5800 5250 60  0001 C CNN
+F 3 "" H 5800 5250 60  0001 C CNN
+	1    5800 5250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 5250 5500 5250
+Wire Wire Line
+	5500 5250 5500 5150
+Wire Wire Line
+	5500 5150 4700 5150
+Wire Wire Line
+	6100 5250 6000 5250
+Wire Wire Line
+	6100 4700 6000 4700
+Wire Wire Line
+	4700 5450 6100 5450
+Wire Wire Line
+	6100 5450 6100 5250
+Wire Wire Line
+	4700 4900 6100 4900
+Wire Wire Line
+	6100 4900 6100 4700
+Wire Wire Line
+	5500 4600 6200 4600
+Connection ~ 5500 4600
+Wire Wire Line
+	5500 5150 6200 5150
+Connection ~ 5500 5150
+Text Label 6900 4600 0    50   ~ 0
+AIN7
+Text Label 6900 5150 0    50   ~ 0
+AIN8
+$Comp
+L register:R R14
+U 1 1 62BFAFCA
+P 6500 4700
+F 0 "R14" V 6450 4450 50  0000 L CNN
+F 1 "N.M." V 6500 4600 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 4700 50  0001 C CNN
+F 3 "" H 6500 4700 50  0001 C CNN
+	1    6500 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R15
+U 1 1 62BFAFD0
+P 6500 4800
+F 0 "R15" V 6450 4550 50  0000 L CNN
+F 1 "N.M." V 6500 4700 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 4800 50  0001 C CNN
+F 3 "" H 6500 4800 50  0001 C CNN
+	1    6500 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 4700 6200 4700
+Wire Wire Line
+	6200 4700 6200 4600
+Connection ~ 6200 4600
+Wire Wire Line
+	6350 4800 6200 4800
+Wire Wire Line
+	6200 4800 6200 4700
+Connection ~ 6200 4700
+$Comp
+L register:R R16
+U 1 1 62BFAFDC
+P 6500 5250
+F 0 "R16" V 6450 5000 50  0000 L CNN
+F 1 "N.M." V 6500 5150 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 5250 50  0001 C CNN
+F 3 "" H 6500 5250 50  0001 C CNN
+	1    6500 5250
+	0    1    1    0   
+$EndComp
+$Comp
+L register:R R18
+U 1 1 62BFAFE2
+P 6500 5350
+F 0 "R18" V 6450 5100 50  0000 L CNN
+F 1 "N.M." V 6500 5250 50  0000 L CNN
+F 2 "footprint:C_3216" V 6430 5350 50  0001 C CNN
+F 3 "" H 6500 5350 50  0001 C CNN
+	1    6500 5350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6350 5250 6200 5250
+Wire Wire Line
+	6200 5250 6200 5150
+Connection ~ 6200 5150
+Wire Wire Line
+	6350 5350 6200 5350
+Wire Wire Line
+	6200 5350 6200 5250
+Connection ~ 6200 5250
+Wire Wire Line
+	6650 5350 6750 5350
+Wire Wire Line
+	6750 5350 6750 5450
+Wire Wire Line
+	6650 5250 6750 5250
+Wire Wire Line
+	6750 5250 6750 5350
+Connection ~ 6750 5350
+Wire Wire Line
+	6100 5450 6750 5450
+Connection ~ 6100 5450
+Connection ~ 6750 5450
+Wire Wire Line
+	6750 5450 6750 5500
+Wire Wire Line
+	6100 4900 6750 4900
+Wire Wire Line
+	6750 4900 6750 4950
+Connection ~ 6100 4900
+Wire Wire Line
+	6750 4900 6750 4800
+Wire Wire Line
+	6750 4800 6650 4800
+Connection ~ 6750 4900
+Wire Wire Line
+	6650 4700 6750 4700
+Wire Wire Line
+	6750 4700 6750 4800
+Connection ~ 6750 4800
+$Comp
+L power:GNDA #PWR?
+U 1 1 62BFB000
+P 6750 4950
+AR Path="/62BFB000" Ref="#PWR?"  Part="1" 
+AR Path="/62B9E108/62BFB000" Ref="#PWR032"  Part="1" 
+F 0 "#PWR032" H 6750 4700 50  0001 C CNN
+F 1 "GNDA" H 6755 4777 50  0000 C CNN
+F 2 "" H 6750 4950 50  0001 C CNN
+F 3 "" H 6750 4950 50  0001 C CNN
+	1    6750 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 4600 7150 4600
+Wire Wire Line
+	6200 5150 7150 5150
+$EndSCHEMATC
