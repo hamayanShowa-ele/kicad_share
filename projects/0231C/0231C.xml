@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>C:\Users\hamay\OneDrive\kicad\0231C\0231C.sch</source>
+    <date>2022/06/30 13:18:42</date>
+    <tool>Eeschema (5.1.10)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>0231C DC100V PULSE INPUT BOARD</title>
+        <company/>
+        <rev>0</rev>
+        <date/>
+        <source>0231C.sch</source>
+        <comment number="1" value="designed by hamayan."/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="CN11">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4C677</tstamp>
+    </comp>
+    <comp ref="F1">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4C6E9</tstamp>
+    </comp>
+    <comp ref="TZ1">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4C7B5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4C8AA</tstamp>
+    </comp>
+    <comp ref="R9">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4C952</tstamp>
+    </comp>
+    <comp ref="RD1">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4CB16</tstamp>
+    </comp>
+    <comp ref="R17">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4CB97</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4CBE2</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4D021</tstamp>
+    </comp>
+    <comp ref="PC1">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4E548</tstamp>
+    </comp>
+    <comp ref="CN3">
+      <value>HIF3FC-16PA-2.54DS</value>
+      <footprint>footprint:cn_HIF3FC-16PA-254DS</footprint>
+      <libsource lib="cn_hif3fc-16pa-2" part="HIF3FC-16PA-2.54DSA" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4EC6E</tstamp>
+    </comp>
+    <comp ref="CN1">
+      <value>B2PS-VH</value>
+      <footprint>footprint:cn_B2PS-VH</footprint>
+      <libsource lib="cn_b2b-xh-a" part="B2B-XH-A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4ED7A</tstamp>
+    </comp>
+    <comp ref="CN12">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1E1</tstamp>
+    </comp>
+    <comp ref="F2">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1E7</tstamp>
+    </comp>
+    <comp ref="TZ2">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1ED</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1F3</tstamp>
+    </comp>
+    <comp ref="R10">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1F9</tstamp>
+    </comp>
+    <comp ref="RD2">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F1FF</tstamp>
+    </comp>
+    <comp ref="R18">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F205</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F20B</tstamp>
+    </comp>
+    <comp ref="L2">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F211</tstamp>
+    </comp>
+    <comp ref="PC2">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4F230</tstamp>
+    </comp>
+    <comp ref="CN13">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FDF7</tstamp>
+    </comp>
+    <comp ref="F3">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FDFD</tstamp>
+    </comp>
+    <comp ref="TZ3">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE03</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE09</tstamp>
+    </comp>
+    <comp ref="R11">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE0F</tstamp>
+    </comp>
+    <comp ref="RD3">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE15</tstamp>
+    </comp>
+    <comp ref="R19">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE1B</tstamp>
+    </comp>
+    <comp ref="D3">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE21</tstamp>
+    </comp>
+    <comp ref="L3">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE27</tstamp>
+    </comp>
+    <comp ref="PC3">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE46</tstamp>
+    </comp>
+    <comp ref="CN14">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE55</tstamp>
+    </comp>
+    <comp ref="F4">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE5B</tstamp>
+    </comp>
+    <comp ref="TZ4">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE61</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE67</tstamp>
+    </comp>
+    <comp ref="R12">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE6D</tstamp>
+    </comp>
+    <comp ref="RD4">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE73</tstamp>
+    </comp>
+    <comp ref="R20">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE79</tstamp>
+    </comp>
+    <comp ref="D4">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE7F</tstamp>
+    </comp>
+    <comp ref="L4">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FE85</tstamp>
+    </comp>
+    <comp ref="PC4">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF4FEA4</tstamp>
+    </comp>
+    <comp ref="CN15">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525D3</tstamp>
+    </comp>
+    <comp ref="F5">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525D9</tstamp>
+    </comp>
+    <comp ref="TZ5">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525DF</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525E5</tstamp>
+    </comp>
+    <comp ref="R13">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525EB</tstamp>
+    </comp>
+    <comp ref="RD5">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525F1</tstamp>
+    </comp>
+    <comp ref="R21">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525F7</tstamp>
+    </comp>
+    <comp ref="D5">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF525FD</tstamp>
+    </comp>
+    <comp ref="L5">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52603</tstamp>
+    </comp>
+    <comp ref="PC5">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52622</tstamp>
+    </comp>
+    <comp ref="CN16">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52631</tstamp>
+    </comp>
+    <comp ref="F6">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52637</tstamp>
+    </comp>
+    <comp ref="TZ6">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5263D</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52643</tstamp>
+    </comp>
+    <comp ref="R14">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52649</tstamp>
+    </comp>
+    <comp ref="RD6">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5264F</tstamp>
+    </comp>
+    <comp ref="R22">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52655</tstamp>
+    </comp>
+    <comp ref="D6">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5265B</tstamp>
+    </comp>
+    <comp ref="L6">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52661</tstamp>
+    </comp>
+    <comp ref="PC6">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52680</tstamp>
+    </comp>
+    <comp ref="CN17">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5268F</tstamp>
+    </comp>
+    <comp ref="F7">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52695</tstamp>
+    </comp>
+    <comp ref="TZ7">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5269B</tstamp>
+    </comp>
+    <comp ref="R7">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526A1</tstamp>
+    </comp>
+    <comp ref="R15">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526A7</tstamp>
+    </comp>
+    <comp ref="RD7">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526AD</tstamp>
+    </comp>
+    <comp ref="R23">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526B3</tstamp>
+    </comp>
+    <comp ref="D7">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526B9</tstamp>
+    </comp>
+    <comp ref="L7">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526BF</tstamp>
+    </comp>
+    <comp ref="PC7">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526DE</tstamp>
+    </comp>
+    <comp ref="CN18">
+      <value>S4B-XH-A</value>
+      <footprint>footprint:cn_S4B-XH-A_KIRI_2-3</footprint>
+      <libsource lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526ED</tstamp>
+    </comp>
+    <comp ref="F8">
+      <value>3403.0010.24</value>
+      <footprint>footprint:f_3403_0010_24</footprint>
+      <libsource lib="f_fuse_small" part="Fuse_Small" description="Fuse, small symbol"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526F3</tstamp>
+    </comp>
+    <comp ref="TZ8">
+      <value>TND10V-221KB</value>
+      <footprint>A01myFootPrint:tvs_TND10V-221KB</footprint>
+      <libsource lib="tvs_z2018" part="Z2018" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526F9</tstamp>
+    </comp>
+    <comp ref="R8">
+      <value>RSF2B 39KJ</value>
+      <footprint>A01myFootPrint:r_RSF2B</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF526FF</tstamp>
+    </comp>
+    <comp ref="R16">
+      <value>5.1K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52705</tstamp>
+    </comp>
+    <comp ref="RD8">
+      <value>HZ6C2-E</value>
+      <footprint>A01myFootPrint:RD_TH_10R16</footprint>
+      <libsource lib="d_zener" part="ZMDxx" description="1000mW Zener Diode, MiniMELF"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5270B</tstamp>
+    </comp>
+    <comp ref="R24">
+      <value>100K</value>
+      <footprint>A01myFootPrint:R_TH_10R16</footprint>
+      <libsource lib="r_register" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52711</tstamp>
+    </comp>
+    <comp ref="D8">
+      <value>1SS81-E</value>
+      <footprint>A01myFootPrint:D_TH_10R16</footprint>
+      <libsource lib="d_diode" part="DIODE" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF52717</tstamp>
+    </comp>
+    <comp ref="L8">
+      <value>SC-01-10GS</value>
+      <footprint>A01myFootPrint:l_SC-01-10GS</footprint>
+      <libsource lib="u_SU10V-10010" part="u_SC-01-10GS" description="EMI 2-inductor-filter"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5271D</tstamp>
+    </comp>
+    <comp ref="PC8">
+      <value>6N139</value>
+      <footprint>footprint:ic_DIP-8_W7.62mm</footprint>
+      <libsource lib="pc_6n139" part="pc_6N139" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF5273C</tstamp>
+    </comp>
+    <comp ref="CN2">
+      <value>B2PS-VH</value>
+      <footprint>footprint:cn_B2PS-VH</footprint>
+      <libsource lib="cn_b2b-xh-a" part="B2B-XH-A" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5CF6E72C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>220uF/10V</value>
+      <footprint>footprint:CP_Radial_D8.00mm_P2.50mm</footprint>
+      <libsource lib="capacitor" part="CP1_Small" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>62C2AACC</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="b4b-xh-a_2kiri" part="B4B-XH-A_2KIRI">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">B4B-XH-A_2KIRI</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="capacitor" part="CP1_Small">
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CP1_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cn_b2b-xh-a" part="B2B-XH-A">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">B2B-XH-A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="cn_hif3fc-16pa-2" part="HIF3FC-16PA-2.54DSA">
+      <fields>
+        <field name="Reference">CN</field>
+        <field name="Value">HIF3FC-16PA-2.54DSA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+        <pin num="9" name="~" type="passive"/>
+        <pin num="10" name="~" type="passive"/>
+        <pin num="11" name="~" type="passive"/>
+        <pin num="12" name="~" type="passive"/>
+        <pin num="13" name="~" type="passive"/>
+        <pin num="14" name="~" type="passive"/>
+        <pin num="15" name="~" type="passive"/>
+        <pin num="16" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="d_diode" part="DIODE">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="d_zener" part="ZMDxx">
+      <description>1000mW Zener Diode, MiniMELF</description>
+      <docs>http://diotec.com/tl_files/diotec/files/pdf/datasheets/zmd1</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+        <fp>MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">ZMDxx</field>
+        <field name="Footprint">Diodes_SMD:MiniMELF_Standard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="f_fuse_small" part="Fuse_Small">
+      <description>Fuse, small symbol</description>
+      <footprints>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">F</field>
+        <field name="Value">Fuse_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pc_6n139" part="pc_6N139">
+      <fields>
+        <field name="Reference">PC</field>
+        <field name="Value">pc_6N139</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="passive"/>
+        <pin num="2" name="ANODE" type="passive"/>
+        <pin num="3" name="CATHODE" type="passive"/>
+        <pin num="4" name="NC" type="passive"/>
+        <pin num="5" name="GND" type="passive"/>
+        <pin num="6" name="Vout" type="openCol"/>
+        <pin num="7" name="Vbias" type="passive"/>
+        <pin num="8" name="VCC" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="r_register" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="tvs_z2018" part="Z2018">
+      <fields>
+        <field name="Reference">TVS</field>
+        <field name="Value">Z2018</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="u_SU10V-10010" part="u_SC-01-10GS">
+      <description>EMI 2-inductor-filter</description>
+      <docs>http://www.murata.com/~/media/webrenewal/support/library/catalog/products/emc/emifil/c30e.ashx?la=en-gb</docs>
+      <footprints>
+        <fp>L_*</fp>
+        <fp>L_CommonMode*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">u_SC-01-10GS</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="b4b-xh-a_2kiri">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/b4b-xh-a_2kiri.lib</uri>
+    </library>
+    <library logical="capacitor">
+      <uri>C:/Users/hamay/OneDrive/kicad/kicad_share/symbol/capacitor.lib</uri>
+    </library>
+    <library logical="cn_b2b-xh-a">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/cn_b2b-xh-a.lib</uri>
+    </library>
+    <library logical="cn_hif3fc-16pa-2">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/cn_hif3fc-16pa-2.lib</uri>
+    </library>
+    <library logical="d_diode">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/d_diode.lib</uri>
+    </library>
+    <library logical="d_zener">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/d_zener.lib</uri>
+    </library>
+    <library logical="f_fuse_small">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/f_fuse_small.lib</uri>
+    </library>
+    <library logical="pc_6n139">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/pc_6n139.lib</uri>
+    </library>
+    <library logical="r_register">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/r_register.lib</uri>
+    </library>
+    <library logical="tvs_z2018">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/tvs_z2018.lib</uri>
+    </library>
+    <library logical="u_SU10V-10010">
+      <uri>D:/Dropbox/projects/kicad/myLibrary/u_SU10V-10010.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(CN17-Pad1)">
+      <node ref="F7" pin="1"/>
+      <node ref="CN17" pin="1"/>
+    </net>
+    <net code="2" name="Net-(F7-Pad2)">
+      <node ref="L7" pin="1"/>
+      <node ref="F7" pin="2"/>
+    </net>
+    <net code="3" name="Net-(CN17-Pad4)">
+      <node ref="L7" pin="2"/>
+      <node ref="CN17" pin="4"/>
+    </net>
+    <net code="4" name="Net-(L7-Pad4)">
+      <node ref="L7" pin="4"/>
+      <node ref="R7" pin="2"/>
+      <node ref="TZ7" pin="2"/>
+    </net>
+    <net code="5" name="Net-(R15-Pad1)">
+      <node ref="RD7" pin="2"/>
+      <node ref="R15" pin="1"/>
+      <node ref="R7" pin="1"/>
+    </net>
+    <net code="6" name="Net-(L6-Pad4)">
+      <node ref="L6" pin="4"/>
+      <node ref="R6" pin="2"/>
+      <node ref="TZ6" pin="2"/>
+    </net>
+    <net code="7" name="Net-(R14-Pad1)">
+      <node ref="RD6" pin="2"/>
+      <node ref="R14" pin="1"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="8" name="Net-(D6-Pad2)">
+      <node ref="RD6" pin="1"/>
+      <node ref="D6" pin="2"/>
+      <node ref="R22" pin="1"/>
+      <node ref="PC6" pin="2"/>
+    </net>
+    <net code="9" name="Net-(R16-Pad1)">
+      <node ref="R8" pin="1"/>
+      <node ref="R16" pin="1"/>
+      <node ref="RD8" pin="2"/>
+    </net>
+    <net code="10" name="Net-(L8-Pad4)">
+      <node ref="R8" pin="2"/>
+      <node ref="TZ8" pin="2"/>
+      <node ref="L8" pin="4"/>
+    </net>
+    <net code="11" name="Net-(D8-Pad2)">
+      <node ref="D8" pin="2"/>
+      <node ref="PC8" pin="2"/>
+      <node ref="R24" pin="1"/>
+      <node ref="RD8" pin="1"/>
+    </net>
+    <net code="12" name="Net-(D7-Pad2)">
+      <node ref="PC7" pin="2"/>
+      <node ref="R23" pin="1"/>
+      <node ref="D7" pin="2"/>
+      <node ref="RD7" pin="1"/>
+    </net>
+    <net code="13" name="Net-(D7-Pad1)">
+      <node ref="TZ7" pin="1"/>
+      <node ref="R15" pin="2"/>
+      <node ref="PC7" pin="3"/>
+      <node ref="R23" pin="2"/>
+      <node ref="D7" pin="1"/>
+      <node ref="L7" pin="3"/>
+    </net>
+    <net code="14" name="Net-(CN18-Pad1)">
+      <node ref="F8" pin="1"/>
+      <node ref="CN18" pin="1"/>
+    </net>
+    <net code="15" name="Net-(F8-Pad2)">
+      <node ref="L8" pin="1"/>
+      <node ref="F8" pin="2"/>
+    </net>
+    <net code="16" name="Net-(CN18-Pad4)">
+      <node ref="CN18" pin="4"/>
+      <node ref="L8" pin="2"/>
+    </net>
+    <net code="17" name="Net-(D8-Pad1)">
+      <node ref="L8" pin="3"/>
+      <node ref="PC8" pin="3"/>
+      <node ref="D8" pin="1"/>
+      <node ref="R24" pin="2"/>
+      <node ref="R16" pin="2"/>
+      <node ref="TZ8" pin="1"/>
+    </net>
+    <net code="18" name="Net-(L4-Pad4)">
+      <node ref="R4" pin="2"/>
+      <node ref="TZ4" pin="2"/>
+      <node ref="L4" pin="4"/>
+    </net>
+    <net code="19" name="Net-(R12-Pad1)">
+      <node ref="R4" pin="1"/>
+      <node ref="RD4" pin="2"/>
+      <node ref="R12" pin="1"/>
+    </net>
+    <net code="20" name="Net-(D4-Pad2)">
+      <node ref="RD4" pin="1"/>
+      <node ref="R20" pin="1"/>
+      <node ref="D4" pin="2"/>
+      <node ref="PC4" pin="2"/>
+    </net>
+    <net code="21" name="Net-(D3-Pad2)">
+      <node ref="RD3" pin="1"/>
+      <node ref="R19" pin="1"/>
+      <node ref="D3" pin="2"/>
+      <node ref="PC3" pin="2"/>
+    </net>
+    <net code="22" name="Net-(D4-Pad1)">
+      <node ref="D4" pin="1"/>
+      <node ref="PC4" pin="3"/>
+      <node ref="R12" pin="2"/>
+      <node ref="L4" pin="3"/>
+      <node ref="R20" pin="2"/>
+      <node ref="TZ4" pin="1"/>
+    </net>
+    <net code="23" name="Net-(CN14-Pad1)">
+      <node ref="CN14" pin="1"/>
+      <node ref="F4" pin="1"/>
+    </net>
+    <net code="24" name="Net-(F4-Pad2)">
+      <node ref="L4" pin="1"/>
+      <node ref="F4" pin="2"/>
+    </net>
+    <net code="25" name="Net-(CN14-Pad4)">
+      <node ref="L4" pin="2"/>
+      <node ref="CN14" pin="4"/>
+    </net>
+    <net code="26" name="Net-(D5-Pad2)">
+      <node ref="RD5" pin="1"/>
+      <node ref="R21" pin="1"/>
+      <node ref="D5" pin="2"/>
+      <node ref="PC5" pin="2"/>
+    </net>
+    <net code="27" name="Net-(CN16-Pad1)">
+      <node ref="CN16" pin="1"/>
+      <node ref="F6" pin="1"/>
+    </net>
+    <net code="28" name="Net-(F6-Pad2)">
+      <node ref="L6" pin="1"/>
+      <node ref="F6" pin="2"/>
+    </net>
+    <net code="29" name="Net-(CN16-Pad4)">
+      <node ref="CN16" pin="4"/>
+      <node ref="L6" pin="2"/>
+    </net>
+    <net code="30" name="Net-(D6-Pad1)">
+      <node ref="PC6" pin="3"/>
+      <node ref="L6" pin="3"/>
+      <node ref="TZ6" pin="1"/>
+      <node ref="D6" pin="1"/>
+      <node ref="R22" pin="2"/>
+      <node ref="R14" pin="2"/>
+    </net>
+    <net code="31" name="Net-(D5-Pad1)">
+      <node ref="PC5" pin="3"/>
+      <node ref="L5" pin="3"/>
+      <node ref="D5" pin="1"/>
+      <node ref="R21" pin="2"/>
+      <node ref="R13" pin="2"/>
+      <node ref="TZ5" pin="1"/>
+    </net>
+    <net code="32" name="Net-(CN15-Pad1)">
+      <node ref="F5" pin="1"/>
+      <node ref="CN15" pin="1"/>
+    </net>
+    <net code="33" name="Net-(F5-Pad2)">
+      <node ref="L5" pin="1"/>
+      <node ref="F5" pin="2"/>
+    </net>
+    <net code="34" name="Net-(CN15-Pad4)">
+      <node ref="L5" pin="2"/>
+      <node ref="CN15" pin="4"/>
+    </net>
+    <net code="35" name="Net-(L5-Pad4)">
+      <node ref="R5" pin="2"/>
+      <node ref="TZ5" pin="2"/>
+      <node ref="L5" pin="4"/>
+    </net>
+    <net code="36" name="Net-(R13-Pad1)">
+      <node ref="RD5" pin="2"/>
+      <node ref="R5" pin="1"/>
+      <node ref="R13" pin="1"/>
+    </net>
+    <net code="37" name="Net-(CN3-Pad3)">
+      <node ref="PC2" pin="6"/>
+      <node ref="CN3" pin="3"/>
+    </net>
+    <net code="38" name="Net-(C1-Pad1)">
+      <node ref="PC2" pin="8"/>
+      <node ref="PC8" pin="8"/>
+      <node ref="PC1" pin="8"/>
+      <node ref="PC4" pin="8"/>
+      <node ref="CN1" pin="1"/>
+      <node ref="PC3" pin="8"/>
+      <node ref="C1" pin="1"/>
+      <node ref="PC7" pin="8"/>
+      <node ref="PC6" pin="8"/>
+      <node ref="PC5" pin="8"/>
+      <node ref="CN2" pin="1"/>
+    </net>
+    <net code="39" name="Net-(C1-Pad2)">
+      <node ref="CN3" pin="12"/>
+      <node ref="CN3" pin="14"/>
+      <node ref="CN3" pin="6"/>
+      <node ref="PC3" pin="5"/>
+      <node ref="CN3" pin="10"/>
+      <node ref="PC4" pin="5"/>
+      <node ref="C1" pin="2"/>
+      <node ref="CN3" pin="8"/>
+      <node ref="PC5" pin="5"/>
+      <node ref="CN3" pin="2"/>
+      <node ref="PC1" pin="5"/>
+      <node ref="CN3" pin="4"/>
+      <node ref="PC7" pin="5"/>
+      <node ref="PC6" pin="5"/>
+      <node ref="PC2" pin="5"/>
+      <node ref="PC8" pin="5"/>
+      <node ref="CN1" pin="2"/>
+      <node ref="CN3" pin="16"/>
+      <node ref="CN2" pin="2"/>
+    </net>
+    <net code="40" name="Net-(CN3-Pad5)">
+      <node ref="CN3" pin="5"/>
+      <node ref="PC3" pin="6"/>
+    </net>
+    <net code="41" name="Net-(CN3-Pad1)">
+      <node ref="CN3" pin="1"/>
+      <node ref="PC1" pin="6"/>
+    </net>
+    <net code="42" name="Net-(CN3-Pad7)">
+      <node ref="PC4" pin="6"/>
+      <node ref="CN3" pin="7"/>
+    </net>
+    <net code="43" name="Net-(CN3-Pad9)">
+      <node ref="CN3" pin="9"/>
+      <node ref="PC5" pin="6"/>
+    </net>
+    <net code="44" name="Net-(CN3-Pad11)">
+      <node ref="CN3" pin="11"/>
+      <node ref="PC6" pin="6"/>
+    </net>
+    <net code="45" name="Net-(CN3-Pad13)">
+      <node ref="PC7" pin="6"/>
+      <node ref="CN3" pin="13"/>
+    </net>
+    <net code="46" name="Net-(CN3-Pad15)">
+      <node ref="PC8" pin="6"/>
+      <node ref="CN3" pin="15"/>
+    </net>
+    <net code="47" name="Net-(PC3-Pad1)">
+      <node ref="PC3" pin="1"/>
+    </net>
+    <net code="48" name="Net-(PC3-Pad4)">
+      <node ref="PC3" pin="4"/>
+    </net>
+    <net code="49" name="Net-(PC3-Pad7)">
+      <node ref="PC3" pin="7"/>
+    </net>
+    <net code="50" name="Net-(CN13-Pad4)">
+      <node ref="CN13" pin="4"/>
+      <node ref="L3" pin="2"/>
+    </net>
+    <net code="51" name="Net-(D3-Pad1)">
+      <node ref="D3" pin="1"/>
+      <node ref="TZ3" pin="1"/>
+      <node ref="L3" pin="3"/>
+      <node ref="PC3" pin="3"/>
+      <node ref="R19" pin="2"/>
+      <node ref="R11" pin="2"/>
+    </net>
+    <net code="52" name="Net-(PC5-Pad1)">
+      <node ref="PC5" pin="1"/>
+    </net>
+    <net code="53" name="Net-(PC5-Pad4)">
+      <node ref="PC5" pin="4"/>
+    </net>
+    <net code="54" name="Net-(PC5-Pad7)">
+      <node ref="PC5" pin="7"/>
+    </net>
+    <net code="55" name="Net-(PC4-Pad4)">
+      <node ref="PC4" pin="4"/>
+    </net>
+    <net code="56" name="Net-(PC4-Pad1)">
+      <node ref="PC4" pin="1"/>
+    </net>
+    <net code="57" name="Net-(PC4-Pad7)">
+      <node ref="PC4" pin="7"/>
+    </net>
+    <net code="58" name="Net-(R11-Pad1)">
+      <node ref="RD3" pin="2"/>
+      <node ref="R11" pin="1"/>
+      <node ref="R3" pin="1"/>
+    </net>
+    <net code="59" name="Net-(PC1-Pad4)">
+      <node ref="PC1" pin="4"/>
+    </net>
+    <net code="60" name="Net-(PC1-Pad7)">
+      <node ref="PC1" pin="7"/>
+    </net>
+    <net code="61" name="Net-(PC1-Pad1)">
+      <node ref="PC1" pin="1"/>
+    </net>
+    <net code="62" name="Net-(D1-Pad2)">
+      <node ref="RD1" pin="1"/>
+      <node ref="R17" pin="1"/>
+      <node ref="D1" pin="2"/>
+      <node ref="PC1" pin="2"/>
+    </net>
+    <net code="63" name="Net-(CN11-Pad4)">
+      <node ref="L1" pin="2"/>
+      <node ref="CN11" pin="4"/>
+    </net>
+    <net code="64" name="Net-(CN11-Pad1)">
+      <node ref="F1" pin="1"/>
+      <node ref="CN11" pin="1"/>
+    </net>
+    <net code="65" name="Net-(R1-Pad1)">
+      <node ref="RD1" pin="2"/>
+      <node ref="R9" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="66" name="Net-(F1-Pad2)">
+      <node ref="F1" pin="2"/>
+      <node ref="L1" pin="1"/>
+    </net>
+    <net code="67" name="Net-(D1-Pad1)">
+      <node ref="TZ1" pin="1"/>
+      <node ref="R9" pin="2"/>
+      <node ref="R17" pin="2"/>
+      <node ref="D1" pin="1"/>
+      <node ref="PC1" pin="3"/>
+      <node ref="L1" pin="3"/>
+    </net>
+    <net code="68" name="Net-(L1-Pad4)">
+      <node ref="L1" pin="4"/>
+      <node ref="R1" pin="2"/>
+      <node ref="TZ1" pin="2"/>
+    </net>
+    <net code="69" name="Net-(PC2-Pad7)">
+      <node ref="PC2" pin="7"/>
+    </net>
+    <net code="70" name="Net-(CN12-Pad4)">
+      <node ref="CN12" pin="4"/>
+      <node ref="L2" pin="2"/>
+    </net>
+    <net code="71" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R18" pin="2"/>
+      <node ref="L2" pin="3"/>
+      <node ref="TZ2" pin="1"/>
+      <node ref="PC2" pin="3"/>
+      <node ref="R10" pin="2"/>
+    </net>
+    <net code="72" name="Net-(PC2-Pad1)">
+      <node ref="PC2" pin="1"/>
+    </net>
+    <net code="73" name="Net-(PC2-Pad4)">
+      <node ref="PC2" pin="4"/>
+    </net>
+    <net code="74" name="Net-(CN13-Pad1)">
+      <node ref="F3" pin="1"/>
+      <node ref="CN13" pin="1"/>
+    </net>
+    <net code="75" name="Net-(F3-Pad2)">
+      <node ref="L3" pin="1"/>
+      <node ref="F3" pin="2"/>
+    </net>
+    <net code="76" name="Net-(L3-Pad4)">
+      <node ref="R3" pin="2"/>
+      <node ref="L3" pin="4"/>
+      <node ref="TZ3" pin="2"/>
+    </net>
+    <net code="77" name="Net-(L2-Pad4)">
+      <node ref="TZ2" pin="2"/>
+      <node ref="R2" pin="2"/>
+      <node ref="L2" pin="4"/>
+    </net>
+    <net code="78" name="Net-(CN12-Pad1)">
+      <node ref="F2" pin="1"/>
+      <node ref="CN12" pin="1"/>
+    </net>
+    <net code="79" name="Net-(F2-Pad2)">
+      <node ref="F2" pin="2"/>
+      <node ref="L2" pin="1"/>
+    </net>
+    <net code="80" name="Net-(R10-Pad1)">
+      <node ref="R2" pin="1"/>
+      <node ref="R10" pin="1"/>
+      <node ref="RD2" pin="2"/>
+    </net>
+    <net code="81" name="Net-(D2-Pad2)">
+      <node ref="R18" pin="1"/>
+      <node ref="RD2" pin="1"/>
+      <node ref="D2" pin="2"/>
+      <node ref="PC2" pin="2"/>
+    </net>
+    <net code="82" name="Net-(PC8-Pad7)">
+      <node ref="PC8" pin="7"/>
+    </net>
+    <net code="83" name="Net-(PC8-Pad1)">
+      <node ref="PC8" pin="1"/>
+    </net>
+    <net code="84" name="Net-(PC8-Pad4)">
+      <node ref="PC8" pin="4"/>
+    </net>
+    <net code="85" name="Net-(PC6-Pad4)">
+      <node ref="PC6" pin="4"/>
+    </net>
+    <net code="86" name="Net-(PC6-Pad7)">
+      <node ref="PC6" pin="7"/>
+    </net>
+    <net code="87" name="Net-(PC6-Pad1)">
+      <node ref="PC6" pin="1"/>
+    </net>
+    <net code="88" name="Net-(PC7-Pad1)">
+      <node ref="PC7" pin="1"/>
+    </net>
+    <net code="89" name="Net-(PC7-Pad4)">
+      <node ref="PC7" pin="4"/>
+    </net>
+    <net code="90" name="Net-(PC7-Pad7)">
+      <node ref="PC7" pin="7"/>
+    </net>
+  </nets>
+</export>
