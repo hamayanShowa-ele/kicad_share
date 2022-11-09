@@ -1,0 +1,62 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# L-Inductor
+#
+DEF L-Inductor L 0 40 N N 1 F N
+F0 "L" -50 0 50 V V C CNN
+F1 "L-Inductor" 75 0 50 V V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Choke_*
+ *Coil*
+ Inductor_*
+ L_*
+$ENDFPLIST
+DRAW
+A 0 -75 25 -899 899 0 1 0 N 0 -100 0 -50
+A 0 -25 25 -899 899 0 1 0 N 0 -50 0 0
+A 0 25 25 -899 899 0 1 0 N 0 0 0 50
+A 0 75 25 -899 899 0 1 0 N 0 50 0 100
+X 1 1 0 150 50 D 50 50 1 1 P
+X 2 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LC-2-G-tab_check_terminal
+#
+DEF LC-2-G-tab_check_terminal TP 0 40 Y Y 1 F N
+F0 "TP" 150 0 50 H V C CNN
+F1 "LC-2-G-tab_check_terminal" 250 -100 50 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+C 0 0 50 0 1 0 f
+X ~ 1 0 -150 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED-LED
+#
+DEF LED-LED LED 0 10 N N 1 F N
+F0 "LED" -100 100 50 H V L CNN
+F1 "LED-LED" -100 -100 50 H V L CNN
+F2 "" 0 0 50 V I C CNN
+F3 "" 0 0 50 V I C CNN
+$FPLIST
+ LED-*
+ *
+$ENDFPLIST
+DRAW
+P 2 0 1 0 -30 -40 -30 40 N
+P 2 0 1 0 40 0 -30 0 N
+P 4 0 1 0 30 -40 -30 0 30 40 30 -40 N
+P 5 0 1 0 0 30 -20 50 -10 50 -20 50 -20 40 N
+P 5 0 1 0 20 50 0 70 10 70 0 70 0 60 N
+X A 1 100 0 70 L 50 50 1 1 P
+X K 2 -100 0 70 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library
